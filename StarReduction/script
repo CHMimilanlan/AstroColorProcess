@@ -1,0 +1,13 @@
+python siril_star_reduction.py \
+  --input input.fits \
+  --star-remover ./my_star_remover.py:remove_stars \
+  --output reduced.fits \
+  --value 0.2
+
+  
+
+python siril_star_reduction.py \
+  --input original.fits \
+  --starless starless.fits \
+  --output reduced.fits \
+  --value 0.2

@@ -1,0 +1,614 @@
+2026-03-20 16:38:06.111 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\ImageStack\RASPStacker\ColorProcess\AutoBackgroundExtraction\M8.FTS==================
+2026-03-20 16:38:06.237 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.04331519340810255 midtonesB:0.003601964674924878 highlightsB:1.0
+2026-03-20 16:38:06.237 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.04641914702067597 midtonesG:0.005867990240746937 highlightsG:1.0
+2026-03-20 16:38:06.237 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.045130095368886854 midtonesR:0.008690889372070059 highlightsR:1.0
+2026-03-20 16:38:06.254 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$2837.9681569054706, nativeHighlightsB:$65519.0,  midtonesB:$235.99712353640308
+2026-03-20 16:38:06.254 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$3041.336093647669, nativeHighlightsG:$65519.0,  midtonesG:$384.46485258349855
+2026-03-20 16:38:06.255 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$2956.8787184740977, nativeHighlightsR:$65519.0,  midtonesR:$569.4183807686582
+2026-03-20 16:38:22.268 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\ImageStack\RASPStacker\ColorProcess\AutoBackgroundExtraction\M8.FTS==================
+2026-03-20 16:38:22.377 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.04331519340810255 midtonesB:0.003601964674924878 highlightsB:1.0
+2026-03-20 16:38:22.378 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.04641914702067597 midtonesG:0.005867990240746937 highlightsG:1.0
+2026-03-20 16:38:22.378 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.045130095368886854 midtonesR:0.008690889372070059 highlightsR:1.0
+2026-03-20 16:38:22.379 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$2837.9681569054706, nativeHighlightsB:$65519.0,  midtonesB:$235.99712353640308
+2026-03-20 16:38:22.379 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$3041.336093647669, nativeHighlightsG:$65519.0,  midtonesG:$384.46485258349855
+2026-03-20 16:38:22.379 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$2956.8787184740977, nativeHighlightsR:$65519.0,  midtonesR:$569.4183807686582
+2026-03-20 16:38:42.735 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\ImageStack\RASPStacker\ColorProcess\AutoBackgroundExtraction\M8.FTS==================
+2026-03-20 16:38:42.850 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.04331519340810255 midtonesB:0.003601964674924878 highlightsB:1.0
+2026-03-20 16:38:42.850 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.04641914702067597 midtonesG:0.005867990240746937 highlightsG:1.0
+2026-03-20 16:38:42.851 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.045130095368886854 midtonesR:0.008690889372070059 highlightsR:1.0
+2026-03-20 16:38:42.852 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$2837.9681569054706, nativeHighlightsB:$65519.0,  midtonesB:$235.99712353640308
+2026-03-20 16:38:42.852 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$3041.336093647669, nativeHighlightsG:$65519.0,  midtonesG:$384.46485258349855
+2026-03-20 16:38:42.852 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$2956.8787184740977, nativeHighlightsR:$65519.0,  midtonesR:$569.4183807686582
+2026-03-20 17:08:10.036 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_IC 1805_60s60_Duo-Band_20251126-013524041.fits==================
+2026-03-20 17:08:10.283 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.10500862134737163 midtonesB:0.009441861886909467 highlightsB:1.0
+2026-03-20 17:08:10.283 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.10666973067826352 midtonesG:0.008690889372070059 highlightsG:1.0
+2026-03-20 17:08:10.283 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.11332014953841459 midtonesR:0.01318540802793394 highlightsR:1.0
+2026-03-20 17:08:10.283 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$6880.0598620584415, nativeHighlightsB:$65519.0,  midtonesB:$618.6213489684213
+2026-03-20 17:08:10.283 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$6988.894084309148, nativeHighlightsG:$65519.0,  midtonesG:$569.4183807686582
+2026-03-20 17:08:10.283 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$7424.622877607385, nativeHighlightsR:$65519.0,  midtonesR:$863.8947485822039
+2026-03-20 17:09:44.975 | INFO     | utils:Mannul_computeParamsOneChannel:221 - upper_half is True!!!
+2026-03-20 17:50:51.264 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\ImageStack\RASPStacker\ColorProcess\AutoBackgroundExtraction\M8.FTS==================
+2026-03-20 17:50:51.380 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.04331519340810255 midtonesB:0.003601964674924878 highlightsB:1.0
+2026-03-20 17:50:51.380 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.04641914702067597 midtonesG:0.005867990240746937 highlightsG:1.0
+2026-03-20 17:50:51.380 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.045130095368886854 midtonesR:0.008690889372070059 highlightsR:1.0
+2026-03-20 17:50:51.384 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$2837.9681569054706, nativeHighlightsB:$65519.0,  midtonesB:$235.99712353640308
+2026-03-20 17:50:51.384 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$3041.336093647669, nativeHighlightsG:$65519.0,  midtonesG:$384.46485258349855
+2026-03-20 17:50:51.384 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$2956.8787184740977, nativeHighlightsR:$65519.0,  midtonesR:$569.4183807686582
+2026-03-20 17:50:51.627 | INFO     | RASPStacker.StarExtraction.extract:BackgroundExtractionAPI:253 - 1. StarExtraction
+2026-03-20 17:51:36.089 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\ImageStack\RASPStacker\ColorProcess\AutoBackgroundExtraction\M8.FTS==================
+2026-03-20 17:51:36.175 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.04331519340810255 midtonesB:0.003601964674924878 highlightsB:1.0
+2026-03-20 17:51:36.175 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.04641914702067597 midtonesG:0.005867990240746937 highlightsG:1.0
+2026-03-20 17:51:36.175 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.045130095368886854 midtonesR:0.008690889372070059 highlightsR:1.0
+2026-03-20 17:51:36.175 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$2837.9681569054706, nativeHighlightsB:$65519.0,  midtonesB:$235.99712353640308
+2026-03-20 17:51:36.188 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$3041.336093647669, nativeHighlightsG:$65519.0,  midtonesG:$384.46485258349855
+2026-03-20 17:51:36.188 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$2956.8787184740977, nativeHighlightsR:$65519.0,  midtonesR:$569.4183807686582
+2026-03-20 17:51:36.389 | INFO     | RASPStacker.StarExtraction.extract:BackgroundExtractionAPI:253 - 1. StarExtraction
+2026-03-20 17:51:55.993 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\ImageStack\RASPStacker\ColorProcess\AutoBackgroundExtraction\M8.FTS==================
+2026-03-20 17:51:56.094 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.04331519340810255 midtonesB:0.003601964674924878 highlightsB:1.0
+2026-03-20 17:51:56.094 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.04641914702067597 midtonesG:0.005867990240746937 highlightsG:1.0
+2026-03-20 17:51:56.094 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.045130095368886854 midtonesR:0.008690889372070059 highlightsR:1.0
+2026-03-20 17:51:56.109 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$2837.9681569054706, nativeHighlightsB:$65519.0,  midtonesB:$235.99712353640308
+2026-03-20 17:51:56.109 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$3041.336093647669, nativeHighlightsG:$65519.0,  midtonesG:$384.46485258349855
+2026-03-20 17:51:56.109 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$2956.8787184740977, nativeHighlightsR:$65519.0,  midtonesR:$569.4183807686582
+2026-03-20 17:51:56.343 | INFO     | RASPStacker.StarExtraction.extract:BackgroundExtractionAPI:253 - 1. StarExtraction
+2026-03-20 17:52:31.549 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\ImageStack\RASPStacker\ColorProcess\AutoBackgroundExtraction\M8.FTS==================
+2026-03-20 17:52:31.648 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.04331519340810255 midtonesB:0.003601964674924878 highlightsB:1.0
+2026-03-20 17:52:31.648 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.04641914702067597 midtonesG:0.005867990240746937 highlightsG:1.0
+2026-03-20 17:52:31.648 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.045130095368886854 midtonesR:0.008690889372070059 highlightsR:1.0
+2026-03-20 17:52:31.648 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$2837.9681569054706, nativeHighlightsB:$65519.0,  midtonesB:$235.99712353640308
+2026-03-20 17:52:31.659 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$3041.336093647669, nativeHighlightsG:$65519.0,  midtonesG:$384.46485258349855
+2026-03-20 17:52:31.659 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$2956.8787184740977, nativeHighlightsR:$65519.0,  midtonesR:$569.4183807686582
+2026-03-20 17:52:31.865 | INFO     | RASPStacker.StarExtraction.extract:BackgroundExtractionAPI:253 - 1. StarExtraction
+2026-03-20 17:56:49.346 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_IC 1805_60s60_Duo-Band_20251126-013524041.fits==================
+2026-03-20 17:56:49.545 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.10500862134737163 midtonesB:0.009441861886909467 highlightsB:1.0
+2026-03-20 17:56:49.545 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.10666973067826352 midtonesG:0.008690889372070059 highlightsG:1.0
+2026-03-20 17:56:49.545 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.11332014953841459 midtonesR:0.01318540802793394 highlightsR:1.0
+2026-03-20 17:56:49.548 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$6880.0598620584415, nativeHighlightsB:$65519.0,  midtonesB:$618.6213489684213
+2026-03-20 17:56:49.548 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$6988.894084309148, nativeHighlightsG:$65519.0,  midtonesG:$569.4183807686582
+2026-03-20 17:56:49.548 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$7424.622877607385, nativeHighlightsR:$65519.0,  midtonesR:$863.8947485822039
+2026-03-20 17:56:49.983 | INFO     | RASPStacker.StarExtraction.extract:BackgroundExtractionAPI:253 - 1. StarExtraction
+2026-03-20 18:38:27.456 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_IC 1805_60s60_Duo-Band_20251126-013524041.fits==================
+2026-03-20 18:38:27.634 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.10500862134737163 midtonesB:0.009441861886909467 highlightsB:1.0
+2026-03-20 18:38:27.634 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.10666973067826352 midtonesG:0.008690889372070059 highlightsG:1.0
+2026-03-20 18:38:27.634 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.11332014953841459 midtonesR:0.01318540802793394 highlightsR:1.0
+2026-03-20 18:38:27.640 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$6880.0598620584415, nativeHighlightsB:$65519.0,  midtonesB:$618.6213489684213
+2026-03-20 18:38:27.640 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$6988.894084309148, nativeHighlightsG:$65519.0,  midtonesG:$569.4183807686582
+2026-03-20 18:38:27.640 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$7424.622877607385, nativeHighlightsR:$65519.0,  midtonesR:$863.8947485822039
+2026-03-24 14:20:02.491 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_IC 1805_60s60_Duo-Band_20251126-013524041.fits==================
+2026-03-24 14:20:02.821 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.10500862134737163 midtonesB:0.009441861886909467 highlightsB:1.0
+2026-03-24 14:20:02.821 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.10666973067826352 midtonesG:0.008690889372070059 highlightsG:1.0
+2026-03-24 14:20:02.821 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.11332014953841459 midtonesR:0.01318540802793394 highlightsR:1.0
+2026-03-24 14:20:02.826 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$6880.0598620584415, nativeHighlightsB:$65519.0,  midtonesB:$618.6213489684213
+2026-03-24 14:20:02.826 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$6988.894084309148, nativeHighlightsG:$65519.0,  midtonesG:$569.4183807686582
+2026-03-24 14:20:02.826 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$7424.622877607385, nativeHighlightsR:$65519.0,  midtonesR:$863.8947485822039
+2026-03-24 14:20:04.218 | INFO     | RASPStacker.StarExtraction.extract:PatchifyBackgroundExtractionAPI:276 - 1. StarExtraction
+2026-03-24 14:25:52.610 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_IC 1805_60s60_Duo-Band_20251126-013524041.fits==================
+2026-03-24 14:25:52.814 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.10500862134737163 midtonesB:0.009441861886909467 highlightsB:1.0
+2026-03-24 14:25:52.819 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.10666973067826352 midtonesG:0.008690889372070059 highlightsG:1.0
+2026-03-24 14:25:52.819 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.11332014953841459 midtonesR:0.01318540802793394 highlightsR:1.0
+2026-03-24 14:25:52.821 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$6880.0598620584415, nativeHighlightsB:$65519.0,  midtonesB:$618.6213489684213
+2026-03-24 14:25:52.821 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$6988.894084309148, nativeHighlightsG:$65519.0,  midtonesG:$569.4183807686582
+2026-03-24 14:25:52.821 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$7424.622877607385, nativeHighlightsR:$65519.0,  midtonesR:$863.8947485822039
+2026-03-24 14:25:54.178 | INFO     | RASPStacker.StarExtraction.extract:PatchifyBackgroundExtractionAPI:276 - 1. StarExtraction
+2026-03-24 14:37:04.649 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_IC 1805_60s60_Duo-Band_20251126-013524041.fits==================
+2026-03-24 14:37:04.824 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.10500862134737163 midtonesB:0.009441861886909467 highlightsB:1.0
+2026-03-24 14:37:04.824 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.10666973067826352 midtonesG:0.008690889372070059 highlightsG:1.0
+2026-03-24 14:37:04.824 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.11332014953841459 midtonesR:0.01318540802793394 highlightsR:1.0
+2026-03-24 14:37:04.840 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$6880.0598620584415, nativeHighlightsB:$65519.0,  midtonesB:$618.6213489684213
+2026-03-24 14:37:04.841 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$6988.894084309148, nativeHighlightsG:$65519.0,  midtonesG:$569.4183807686582
+2026-03-24 14:37:04.841 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$7424.622877607385, nativeHighlightsR:$65519.0,  midtonesR:$863.8947485822039
+2026-03-24 14:37:06.064 | INFO     | RASPStacker.StarExtraction.extract:PatchifyBackgroundExtractionAPI:276 - 1. StarExtraction
+2026-03-24 14:37:58.800 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_IC 1805_60s60_Duo-Band_20251126-013524041.fits==================
+2026-03-24 14:37:59.069 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.10500862134737163 midtonesB:0.009441861886909467 highlightsB:1.0
+2026-03-24 14:37:59.069 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.10666973067826352 midtonesG:0.008690889372070059 highlightsG:1.0
+2026-03-24 14:37:59.081 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.11332014953841459 midtonesR:0.01318540802793394 highlightsR:1.0
+2026-03-24 14:37:59.083 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$6880.0598620584415, nativeHighlightsB:$65519.0,  midtonesB:$618.6213489684213
+2026-03-24 14:37:59.083 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$6988.894084309148, nativeHighlightsG:$65519.0,  midtonesG:$569.4183807686582
+2026-03-24 14:37:59.083 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$7424.622877607385, nativeHighlightsR:$65519.0,  midtonesR:$863.8947485822039
+2026-03-24 14:38:00.408 | INFO     | RASPStacker.StarExtraction.extract:PatchifyBackgroundExtractionAPI:276 - 1. StarExtraction
+2026-03-24 14:41:45.463 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\ImageStack\RASPStacker\ColorProcess\AutoBackgroundExtraction\M8.FTS==================
+2026-03-24 14:41:45.666 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.04331519340810255 midtonesB:0.003601964674924878 highlightsB:1.0
+2026-03-24 14:41:45.666 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.04641914702067597 midtonesG:0.005867990240746937 highlightsG:1.0
+2026-03-24 14:41:45.666 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.045130095368886854 midtonesR:0.008690889372070059 highlightsR:1.0
+2026-03-24 14:41:45.666 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$2837.9681569054706, nativeHighlightsB:$65519.0,  midtonesB:$235.99712353640308
+2026-03-24 14:41:45.666 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$3041.336093647669, nativeHighlightsG:$65519.0,  midtonesG:$384.46485258349855
+2026-03-24 14:41:45.669 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$2956.8787184740977, nativeHighlightsR:$65519.0,  midtonesR:$569.4183807686582
+2026-03-24 14:41:46.454 | INFO     | RASPStacker.StarExtraction.extract:PatchifyBackgroundExtractionAPI:276 - 1. StarExtraction
+2026-03-24 14:46:55.095 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_IC 1805_60s60_Duo-Band_20251126-013524041.fits==================
+2026-03-24 14:46:55.293 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.10500862134737163 midtonesB:0.009441861886909467 highlightsB:1.0
+2026-03-24 14:46:55.293 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.10666973067826352 midtonesG:0.008690889372070059 highlightsG:1.0
+2026-03-24 14:46:55.293 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.11332014953841459 midtonesR:0.01318540802793394 highlightsR:1.0
+2026-03-24 14:46:55.298 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$6880.0598620584415, nativeHighlightsB:$65519.0,  midtonesB:$618.6213489684213
+2026-03-24 14:46:55.298 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$6988.894084309148, nativeHighlightsG:$65519.0,  midtonesG:$569.4183807686582
+2026-03-24 14:46:55.298 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$7424.622877607385, nativeHighlightsR:$65519.0,  midtonesR:$863.8947485822039
+2026-03-24 14:46:56.905 | INFO     | RASPStacker.StarExtraction.extract:PatchifyBackgroundExtractionAPI:276 - 1. StarExtraction
+2026-03-24 14:47:47.512 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_M 31_30s60_Astro_20251125-212604245.fits==================
+2026-03-24 14:47:47.785 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.2450256870374609 midtonesB:0.02024658703901488 highlightsB:1.0
+2026-03-24 14:47:47.785 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.24575652704661632 midtonesG:0.01969156493577207 highlightsG:1.0
+2026-03-24 14:47:47.785 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.25748289005874725 midtonesR:0.022278112181193778 highlightsR:1.0
+2026-03-24 14:47:47.788 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$16053.8379890074, nativeHighlightsB:$65519.0,  midtonesB:$1326.536136209216
+2026-03-24 14:47:47.788 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$16101.721895567254, nativeHighlightsG:$65519.0,  midtonesG:$1290.1716430268502
+2026-03-24 14:47:47.789 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$16870.02147375906, nativeHighlightsR:$65519.0,  midtonesR:$1459.6396319996352
+2026-03-24 14:47:49.439 | INFO     | RASPStacker.StarExtraction.extract:PatchifyBackgroundExtractionAPI:276 - 1. StarExtraction
+2026-03-24 14:48:34.512 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_M 45_30s60_Astro_20251124-203802912.fits==================
+2026-03-24 14:48:34.741 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.3098227878233005 midtonesB:0.017467306741585132 highlightsB:1.0
+2026-03-24 14:48:34.741 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.2840923598077363 midtonesG:0.016166733295274818 highlightsG:1.0
+2026-03-24 14:48:34.741 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.2824759655146105 midtonesR:0.016538558496493595 highlightsR:1.0
+2026-03-24 14:48:34.755 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$20299.279235394828, nativeHighlightsB:$65519.0,  midtonesB:$1144.4404704019162
+2026-03-24 14:48:34.755 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$18613.447322243075, nativeHighlightsG:$65519.0,  midtonesG:$1059.2281987731108
+2026-03-24 14:48:34.755 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$18507.542784551766, nativeHighlightsR:$65519.0,  midtonesR:$1083.589814131764
+2026-03-24 14:48:36.036 | INFO     | RASPStacker.StarExtraction.extract:PatchifyBackgroundExtractionAPI:276 - 1. StarExtraction
+2026-03-24 14:49:18.848 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\M20.FTS==================
+2026-03-24 14:49:18.981 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.04397080033569848 midtonesB:0.003412818914952484 highlightsB:1.0
+2026-03-24 14:49:18.981 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.04721102311741818 midtonesG:0.005302127496958989 highlightsG:1.0
+2026-03-24 14:49:18.981 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.046053461509117266 midtonesR:0.006056515956544669 highlightsR:1.0
+2026-03-24 14:49:18.984 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$2880.922867194629, nativeHighlightsB:$65519.0,  midtonesB:$223.60448248877182
+2026-03-24 14:49:18.984 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$3093.2190236301217, nativeHighlightsG:$65519.0,  midtonesG:$347.390091473256
+2026-03-24 14:49:18.984 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$3017.376744615854, nativeHighlightsR:$65519.0,  midtonesR:$396.81686895685016
+2026-03-24 14:49:19.573 | INFO     | RASPStacker.StarExtraction.extract:PatchifyBackgroundExtractionAPI:276 - 1. StarExtraction
+2026-03-24 14:49:41.577 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\SeestarS30-Stacked_161_IC 1805_60.0s_LP_20251126-053001.fit==================
+2026-03-24 14:49:41.639 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.029424704356450754 midtonesB:0.0018979297054619055 highlightsB:1.0
+2026-03-24 14:49:41.640 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.02945469138628214 midtonesG:0.0017083528904956076 highlightsG:1.0
+2026-03-24 14:49:41.640 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.029137438010223546 midtonesR:0.0028450946283228814 highlightsR:1.0
+2026-03-24 14:49:41.640 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$1927.8772047302969, nativeHighlightsB:$65519.0,  midtonesB:$124.35045637215859
+2026-03-24 14:49:41.640 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$1929.8419249378196, nativeHighlightsG:$65519.0,  midtonesG:$111.92957303238171
+2026-03-24 14:49:41.640 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$1909.0558009918366, nativeHighlightsR:$65519.0,  midtonesR:$186.40775495308688
+2026-03-24 14:49:41.943 | INFO     | RASPStacker.StarExtraction.extract:PatchifyBackgroundExtractionAPI:276 - 1. StarExtraction
+2026-03-24 14:49:57.829 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\SeestarS30-Stacked_451_M 45_30.0s_IRCUT_20251125-004001.fit==================
+2026-03-24 14:49:57.944 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.1304385076676585 midtonesB:0.006998431354841102 highlightsB:1.0
+2026-03-24 14:49:57.944 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.13072896009765775 midtonesG:0.007186671924248852 highlightsG:1.0
+2026-03-24 14:49:57.945 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.13015283436331732 midtonesR:0.008503027992613585 highlightsR:1.0
+2026-03-24 14:49:57.946 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$8546.200583877317, nativeHighlightsB:$65519.0,  midtonesB:$458.5302239378342
+2026-03-24 14:49:57.946 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$8565.230736638438, nativeHighlightsG:$65519.0,  midtonesG:$470.86355780486053
+2026-03-24 14:49:57.946 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$8527.483554650187, nativeHighlightsR:$65519.0,  midtonesR:$557.1098910480495
+2026-03-24 14:49:58.285 | INFO     | RASPStacker.StarExtraction.extract:PatchifyBackgroundExtractionAPI:276 - 1. StarExtraction
+2026-03-24 15:02:53.152 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\SeestarS30-Stacked_451_M 45_30.0s_IRCUT_20251125-004001.fit==================
+2026-03-24 15:02:53.216 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.1304385076676585 midtonesB:0.006998431354841102 highlightsB:1.0
+2026-03-24 15:02:53.216 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.13072896009765775 midtonesG:0.007186671924248852 highlightsG:1.0
+2026-03-24 15:02:53.216 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.13015283436331732 midtonesR:0.008503027992613585 highlightsR:1.0
+2026-03-24 15:02:53.217 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$8546.200583877317, nativeHighlightsB:$65519.0,  midtonesB:$458.5302239378342
+2026-03-24 15:02:53.217 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$8565.230736638438, nativeHighlightsG:$65519.0,  midtonesG:$470.86355780486053
+2026-03-24 15:02:53.217 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$8527.483554650187, nativeHighlightsR:$65519.0,  midtonesR:$557.1098910480495
+2026-03-24 15:02:53.479 | INFO     | RASPStacker.StarExtraction.extract:PatchifyBackgroundExtractionAPI:276 - 1. StarExtraction
+2026-03-24 15:03:48.787 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\SeestarS30-Stacked_451_M 45_30.0s_IRCUT_20251125-004001.fit==================
+2026-03-24 15:03:48.868 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.1304385076676585 midtonesB:0.006998431354841102 highlightsB:1.0
+2026-03-24 15:03:48.868 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.13072896009765775 midtonesG:0.007186671924248852 highlightsG:1.0
+2026-03-24 15:03:48.869 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.13015283436331732 midtonesR:0.008503027992613585 highlightsR:1.0
+2026-03-24 15:03:48.869 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$8546.200583877317, nativeHighlightsB:$65519.0,  midtonesB:$458.5302239378342
+2026-03-24 15:03:48.869 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$8565.230736638438, nativeHighlightsG:$65519.0,  midtonesG:$470.86355780486053
+2026-03-24 15:03:48.869 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$8527.483554650187, nativeHighlightsR:$65519.0,  midtonesR:$557.1098910480495
+2026-03-24 15:03:49.111 | INFO     | RASPStacker.StarExtraction.extract:PatchifyBackgroundExtractionAPI:276 - 1. StarExtraction
+2026-03-24 15:10:08.971 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\SeestarS30-Stacked_451_M 45_30.0s_IRCUT_20251125-004001.fit==================
+2026-03-24 15:10:09.044 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.1304385076676585 midtonesB:0.006998431354841102 highlightsB:1.0
+2026-03-24 15:10:09.044 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.13072896009765775 midtonesG:0.007186671924248852 highlightsG:1.0
+2026-03-24 15:10:09.044 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.13015283436331732 midtonesR:0.008503027992613585 highlightsR:1.0
+2026-03-24 15:10:09.052 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$8546.200583877317, nativeHighlightsB:$65519.0,  midtonesB:$458.5302239378342
+2026-03-24 15:10:09.052 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$8565.230736638438, nativeHighlightsG:$65519.0,  midtonesG:$470.86355780486053
+2026-03-24 15:10:09.052 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$8527.483554650187, nativeHighlightsR:$65519.0,  midtonesR:$557.1098910480495
+2026-03-24 15:10:41.994 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\SeestarS30-Stacked_451_M 45_30.0s_IRCUT_20251125-004001.fit==================
+2026-03-24 15:10:42.061 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.1304385076676585 midtonesB:0.006998431354841102 highlightsB:1.0
+2026-03-24 15:10:42.061 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.13072896009765775 midtonesG:0.007186671924248852 highlightsG:1.0
+2026-03-24 15:10:42.061 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.13015283436331732 midtonesR:0.008503027992613585 highlightsR:1.0
+2026-03-24 15:10:42.062 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$8546.200583877317, nativeHighlightsB:$65519.0,  midtonesB:$458.5302239378342
+2026-03-24 15:10:42.062 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$8565.230736638438, nativeHighlightsG:$65519.0,  midtonesG:$470.86355780486053
+2026-03-24 15:10:42.062 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$8527.483554650187, nativeHighlightsR:$65519.0,  midtonesR:$557.1098910480495
+2026-03-24 15:10:42.299 | INFO     | RASPStacker.StarExtraction.extract:PatchifyBackgroundExtractionAPI:276 - 1. StarExtraction
+2026-03-24 15:11:26.540 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\SeestarS30-Stacked_451_M 45_30.0s_IRCUT_20251125-004001.fit==================
+2026-03-24 15:11:26.651 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.1304385076676585 midtonesB:0.006998431354841102 highlightsB:1.0
+2026-03-24 15:11:26.651 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.13072896009765775 midtonesG:0.007186671924248852 highlightsG:1.0
+2026-03-24 15:11:26.653 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.13015283436331732 midtonesR:0.008503027992613585 highlightsR:1.0
+2026-03-24 15:11:26.653 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$8546.200583877317, nativeHighlightsB:$65519.0,  midtonesB:$458.5302239378342
+2026-03-24 15:11:26.655 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$8565.230736638438, nativeHighlightsG:$65519.0,  midtonesG:$470.86355780486053
+2026-03-24 15:11:26.655 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$8527.483554650187, nativeHighlightsR:$65519.0,  midtonesR:$557.1098910480495
+2026-03-24 15:11:26.994 | INFO     | RASPStacker.StarExtraction.extract:BackgroundExtractionAPI:253 - 1. StarExtraction
+2026-03-24 15:14:08.927 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\SeestarS30-Stacked_451_M 45_30.0s_IRCUT_20251125-004001.fit==================
+2026-03-24 15:14:08.987 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.1304385076676585 midtonesB:0.006998431354841102 highlightsB:1.0
+2026-03-24 15:14:08.987 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.13072896009765775 midtonesG:0.007186671924248852 highlightsG:1.0
+2026-03-24 15:14:08.987 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.13015283436331732 midtonesR:0.008503027992613585 highlightsR:1.0
+2026-03-24 15:14:08.987 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$8546.200583877317, nativeHighlightsB:$65519.0,  midtonesB:$458.5302239378342
+2026-03-24 15:14:08.987 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$8565.230736638438, nativeHighlightsG:$65519.0,  midtonesG:$470.86355780486053
+2026-03-24 15:14:08.987 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$8527.483554650187, nativeHighlightsR:$65519.0,  midtonesR:$557.1098910480495
+2026-03-24 15:14:09.242 | INFO     | RASPStacker.StarExtraction.extract:BackgroundExtractionAPI:253 - 1. StarExtraction
+2026-03-24 15:32:53.205 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\SeestarS30-Stacked_451_M 45_30.0s_IRCUT_20251125-004001.fit==================
+2026-03-24 15:32:53.271 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.1304385076676585 midtonesB:0.006998431354841102 highlightsB:1.0
+2026-03-24 15:32:53.271 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.13072896009765775 midtonesG:0.007186671924248852 highlightsG:1.0
+2026-03-24 15:32:53.271 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.13015283436331732 midtonesR:0.008503027992613585 highlightsR:1.0
+2026-03-24 15:32:53.274 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$8546.200583877317, nativeHighlightsB:$65519.0,  midtonesB:$458.5302239378342
+2026-03-24 15:32:53.274 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$8565.230736638438, nativeHighlightsG:$65519.0,  midtonesG:$470.86355780486053
+2026-03-24 15:32:53.274 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$8527.483554650187, nativeHighlightsR:$65519.0,  midtonesR:$557.1098910480495
+2026-03-24 15:32:53.613 | INFO     | RASPStacker.StarExtraction.extract:BackgroundExtractionAPI:253 - 1. StarExtraction
+2026-03-24 15:33:09.257 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\SeestarS30-Stacked_451_M 45_30.0s_IRCUT_20251125-004001.fit==================
+2026-03-24 15:33:09.317 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.1304385076676585 midtonesB:0.006998431354841102 highlightsB:1.0
+2026-03-24 15:33:09.317 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.13072896009765775 midtonesG:0.007186671924248852 highlightsG:1.0
+2026-03-24 15:33:09.317 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.13015283436331732 midtonesR:0.008503027992613585 highlightsR:1.0
+2026-03-24 15:33:09.317 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$8546.200583877317, nativeHighlightsB:$65519.0,  midtonesB:$458.5302239378342
+2026-03-24 15:33:09.317 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$8565.230736638438, nativeHighlightsG:$65519.0,  midtonesG:$470.86355780486053
+2026-03-24 15:33:09.317 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$8527.483554650187, nativeHighlightsR:$65519.0,  midtonesR:$557.1098910480495
+2026-03-24 15:33:09.546 | INFO     | RASPStacker.StarExtraction.extract:BackgroundExtractionAPI:253 - 1. StarExtraction
+2026-03-24 15:34:34.986 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\SeestarS30-Stacked_451_M 45_30.0s_IRCUT_20251125-004001.fit==================
+2026-03-24 15:34:35.050 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.1304385076676585 midtonesB:0.006998431354841102 highlightsB:1.0
+2026-03-24 15:34:35.051 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.13072896009765775 midtonesG:0.007186671924248852 highlightsG:1.0
+2026-03-24 15:34:35.051 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.13015283436331732 midtonesR:0.008503027992613585 highlightsR:1.0
+2026-03-24 15:34:35.051 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$8546.200583877317, nativeHighlightsB:$65519.0,  midtonesB:$458.5302239378342
+2026-03-24 15:34:35.051 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$8565.230736638438, nativeHighlightsG:$65519.0,  midtonesG:$470.86355780486053
+2026-03-24 15:34:35.051 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$8527.483554650187, nativeHighlightsR:$65519.0,  midtonesR:$557.1098910480495
+2026-03-24 15:34:35.287 | INFO     | RASPStacker.StarExtraction.extract:BackgroundExtractionAPI:253 - 1. StarExtraction
+2026-03-24 15:35:18.860 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\SeestarS30-Stacked_451_M 45_30.0s_IRCUT_20251125-004001.fit==================
+2026-03-24 15:35:18.937 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.1304385076676585 midtonesB:0.006998431354841102 highlightsB:1.0
+2026-03-24 15:35:18.937 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.13072896009765775 midtonesG:0.007186671924248852 highlightsG:1.0
+2026-03-24 15:35:18.938 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.13015283436331732 midtonesR:0.008503027992613585 highlightsR:1.0
+2026-03-24 15:35:18.938 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$8546.200583877317, nativeHighlightsB:$65519.0,  midtonesB:$458.5302239378342
+2026-03-24 15:35:18.938 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$8565.230736638438, nativeHighlightsG:$65519.0,  midtonesG:$470.86355780486053
+2026-03-24 15:35:18.939 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$8527.483554650187, nativeHighlightsR:$65519.0,  midtonesR:$557.1098910480495
+2026-03-24 15:35:19.189 | INFO     | RASPStacker.StarExtraction.extract:BackgroundExtractionAPI:253 - 1. StarExtraction
+2026-03-24 16:34:45.511 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\SeestarS30-Stacked_451_M 45_30.0s_IRCUT_20251125-004001.fit==================
+2026-03-24 16:34:45.577 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.1304385076676585 midtonesB:0.006998431354841102 highlightsB:1.0
+2026-03-24 16:34:45.577 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.13072896009765775 midtonesG:0.007186671924248852 highlightsG:1.0
+2026-03-24 16:34:45.577 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.13015283436331732 midtonesR:0.008503027992613585 highlightsR:1.0
+2026-03-24 16:34:45.577 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$8546.200583877317, nativeHighlightsB:$65519.0,  midtonesB:$458.5302239378342
+2026-03-24 16:34:45.579 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$8565.230736638438, nativeHighlightsG:$65519.0,  midtonesG:$470.86355780486053
+2026-03-24 16:34:45.579 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$8527.483554650187, nativeHighlightsR:$65519.0,  midtonesR:$557.1098910480495
+2026-03-24 16:34:45.801 | INFO     | RASPStacker.StarExtraction.extract:BackgroundExtractionAPI:253 - 1. StarExtraction
+2026-03-24 16:36:01.832 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\SeestarS30-Stacked_451_M 45_30.0s_IRCUT_20251125-004001.fit==================
+2026-03-24 16:36:01.884 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.1304385076676585 midtonesB:0.006998431354841102 highlightsB:1.0
+2026-03-24 16:36:01.884 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.13072896009765775 midtonesG:0.007186671924248852 highlightsG:1.0
+2026-03-24 16:36:01.884 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.13015283436331732 midtonesR:0.008503027992613585 highlightsR:1.0
+2026-03-24 16:36:01.884 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$8546.200583877317, nativeHighlightsB:$65519.0,  midtonesB:$458.5302239378342
+2026-03-24 16:36:01.884 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$8565.230736638438, nativeHighlightsG:$65519.0,  midtonesG:$470.86355780486053
+2026-03-24 16:36:01.884 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$8527.483554650187, nativeHighlightsR:$65519.0,  midtonesR:$557.1098910480495
+2026-03-24 16:36:02.116 | INFO     | RASPStacker.StarExtraction.extract:BackgroundExtractionAPI:253 - 1. StarExtraction
+2026-03-24 16:37:55.009 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\SeestarS30-Stacked_451_M 45_30.0s_IRCUT_20251125-004001.fit==================
+2026-03-24 16:37:55.078 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.1304385076676585 midtonesB:0.006998431354841102 highlightsB:1.0
+2026-03-24 16:37:55.078 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.13072896009765775 midtonesG:0.007186671924248852 highlightsG:1.0
+2026-03-24 16:37:55.078 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.13015283436331732 midtonesR:0.008503027992613585 highlightsR:1.0
+2026-03-24 16:37:55.079 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$8546.200583877317, nativeHighlightsB:$65519.0,  midtonesB:$458.5302239378342
+2026-03-24 16:37:55.079 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$8565.230736638438, nativeHighlightsG:$65519.0,  midtonesG:$470.86355780486053
+2026-03-24 16:37:55.080 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$8527.483554650187, nativeHighlightsR:$65519.0,  midtonesR:$557.1098910480495
+2026-03-24 16:37:55.288 | INFO     | RASPStacker.StarExtraction.extract:BackgroundExtractionAPI:253 - 1. StarExtraction
+2026-03-24 17:03:03.205 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\SeestarS30-Stacked_451_M 45_30.0s_IRCUT_20251125-004001.fit==================
+2026-03-24 17:03:03.356 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.1304385076676585 midtonesB:0.006998431354841102 highlightsB:1.0
+2026-03-24 17:03:03.356 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.13072896009765775 midtonesG:0.007186671924248852 highlightsG:1.0
+2026-03-24 17:03:03.358 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.13015283436331732 midtonesR:0.008503027992613585 highlightsR:1.0
+2026-03-24 17:03:03.358 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$8546.200583877317, nativeHighlightsB:$65519.0,  midtonesB:$458.5302239378342
+2026-03-24 17:03:03.358 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$8565.230736638438, nativeHighlightsG:$65519.0,  midtonesG:$470.86355780486053
+2026-03-24 17:03:03.359 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$8527.483554650187, nativeHighlightsR:$65519.0,  midtonesR:$557.1098910480495
+2026-03-24 17:03:03.679 | INFO     | RASPStacker.StarExtraction.extract:BackgroundExtractionAPI:253 - 1. StarExtraction
+2026-03-24 17:18:39.318 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\SeestarS30-Stacked_451_M 45_30.0s_IRCUT_20251125-004001.fit==================
+2026-03-24 17:18:39.454 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.1304385076676585 midtonesB:0.006998431354841102 highlightsB:1.0
+2026-03-24 17:18:39.457 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.13072896009765775 midtonesG:0.007186671924248852 highlightsG:1.0
+2026-03-24 17:18:39.457 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.13015283436331732 midtonesR:0.008503027992613585 highlightsR:1.0
+2026-03-24 17:18:39.459 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$8546.200583877317, nativeHighlightsB:$65519.0,  midtonesB:$458.5302239378342
+2026-03-24 17:18:39.459 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$8565.230736638438, nativeHighlightsG:$65519.0,  midtonesG:$470.86355780486053
+2026-03-24 17:18:39.462 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$8527.483554650187, nativeHighlightsR:$65519.0,  midtonesR:$557.1098910480495
+2026-03-24 17:18:39.872 | INFO     | RASPStacker.StarExtraction.extract:BackgroundExtractionAPI:253 - 1. StarExtraction
+2026-03-24 17:21:38.445 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\SeestarS30-Stacked_451_M 45_30.0s_IRCUT_20251125-004001.fit==================
+2026-03-24 17:21:38.547 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.1304385076676585 midtonesB:0.006998431354841102 highlightsB:1.0
+2026-03-24 17:21:38.547 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.13072896009765775 midtonesG:0.007186671924248852 highlightsG:1.0
+2026-03-24 17:21:38.547 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.13015283436331732 midtonesR:0.008503027992613585 highlightsR:1.0
+2026-03-24 17:21:38.547 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$8546.200583877317, nativeHighlightsB:$65519.0,  midtonesB:$458.5302239378342
+2026-03-24 17:21:38.550 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$8565.230736638438, nativeHighlightsG:$65519.0,  midtonesG:$470.86355780486053
+2026-03-24 17:21:38.550 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$8527.483554650187, nativeHighlightsR:$65519.0,  midtonesR:$557.1098910480495
+2026-03-24 17:21:38.957 | INFO     | RASPStacker.StarExtraction.extract:BackgroundExtractionAPI:253 - 1. StarExtraction
+2026-03-24 17:32:29.612 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\SeestarS30-Stacked_451_M 45_30.0s_IRCUT_20251125-004001.fit==================
+2026-03-24 17:32:29.685 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.1304385076676585 midtonesB:0.006998431354841102 highlightsB:1.0
+2026-03-24 17:32:29.685 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.13072896009765775 midtonesG:0.007186671924248852 highlightsG:1.0
+2026-03-24 17:32:29.685 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.13015283436331732 midtonesR:0.008503027992613585 highlightsR:1.0
+2026-03-24 17:32:29.686 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$8546.200583877317, nativeHighlightsB:$65519.0,  midtonesB:$458.5302239378342
+2026-03-24 17:32:29.686 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$8565.230736638438, nativeHighlightsG:$65519.0,  midtonesG:$470.86355780486053
+2026-03-24 17:32:29.687 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$8527.483554650187, nativeHighlightsR:$65519.0,  midtonesR:$557.1098910480495
+2026-03-24 17:32:29.946 | INFO     | RASPStacker.StarExtraction.extract:BackgroundExtractionAPI:253 - 1. StarExtraction
+2026-03-24 17:33:04.846 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\SeestarS30-Stacked_451_M 45_30.0s_IRCUT_20251125-004001.fit==================
+2026-03-24 17:33:04.930 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.1304385076676585 midtonesB:0.006998431354841102 highlightsB:1.0
+2026-03-24 17:33:04.930 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.13072896009765775 midtonesG:0.007186671924248852 highlightsG:1.0
+2026-03-24 17:33:04.932 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.13015283436331732 midtonesR:0.008503027992613585 highlightsR:1.0
+2026-03-24 17:33:04.932 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$8546.200583877317, nativeHighlightsB:$65519.0,  midtonesB:$458.5302239378342
+2026-03-24 17:33:04.932 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$8565.230736638438, nativeHighlightsG:$65519.0,  midtonesG:$470.86355780486053
+2026-03-24 17:33:04.932 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$8527.483554650187, nativeHighlightsR:$65519.0,  midtonesR:$557.1098910480495
+2026-03-24 17:33:05.203 | INFO     | RASPStacker.StarExtraction.extract:BackgroundExtractionAPI:253 - 1. StarExtraction
+2026-03-24 17:57:54.568 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\SeestarS30-Stacked_451_M 45_30.0s_IRCUT_20251125-004001.fit==================
+2026-03-24 17:57:54.662 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.1304385076676585 midtonesB:0.006998431354841102 highlightsB:1.0
+2026-03-24 17:57:54.662 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.13072896009765775 midtonesG:0.007186671924248852 highlightsG:1.0
+2026-03-24 17:57:54.663 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.13015283436331732 midtonesR:0.008503027992613585 highlightsR:1.0
+2026-03-24 17:57:54.664 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$8546.200583877317, nativeHighlightsB:$65519.0,  midtonesB:$458.5302239378342
+2026-03-24 17:57:54.664 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$8565.230736638438, nativeHighlightsG:$65519.0,  midtonesG:$470.86355780486053
+2026-03-24 17:57:54.664 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$8527.483554650187, nativeHighlightsR:$65519.0,  midtonesR:$557.1098910480495
+2026-03-24 17:57:55.054 | INFO     | RASPStacker.StarExtraction.extract:BackgroundExtractionAPI:253 - 1. StarExtraction
+2026-03-24 17:58:37.175 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\SeestarS30-Stacked_451_M 45_30.0s_IRCUT_20251125-004001.fit==================
+2026-03-24 17:58:37.283 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.1304385076676585 midtonesB:0.006998431354841102 highlightsB:1.0
+2026-03-24 17:58:37.283 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.13072896009765775 midtonesG:0.007186671924248852 highlightsG:1.0
+2026-03-24 17:58:37.283 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.13015283436331732 midtonesR:0.008503027992613585 highlightsR:1.0
+2026-03-24 17:58:37.283 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$8546.200583877317, nativeHighlightsB:$65519.0,  midtonesB:$458.5302239378342
+2026-03-24 17:58:37.286 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$8565.230736638438, nativeHighlightsG:$65519.0,  midtonesG:$470.86355780486053
+2026-03-24 17:58:37.286 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$8527.483554650187, nativeHighlightsR:$65519.0,  midtonesR:$557.1098910480495
+2026-03-24 17:58:37.684 | INFO     | RASPStacker.StarExtraction.extract:BackgroundExtractionAPI:253 - 1. StarExtraction
+2026-03-24 18:00:06.577 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_IC 1805_60s60_Duo-Band_20251126-013524041.fits==================
+2026-03-24 18:00:07.030 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.10500862134737163 midtonesB:0.009441861886909467 highlightsB:1.0
+2026-03-24 18:00:07.030 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.10666973067826352 midtonesG:0.008690889372070059 highlightsG:1.0
+2026-03-24 18:00:07.032 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.11332014953841459 midtonesR:0.01318540802793394 highlightsR:1.0
+2026-03-24 18:00:07.034 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$6880.0598620584415, nativeHighlightsB:$65519.0,  midtonesB:$618.6213489684213
+2026-03-24 18:00:07.036 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$6988.894084309148, nativeHighlightsG:$65519.0,  midtonesG:$569.4183807686582
+2026-03-24 18:00:07.036 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$7424.622877607385, nativeHighlightsR:$65519.0,  midtonesR:$863.8947485822039
+2026-03-24 18:00:09.567 | INFO     | RASPStacker.StarExtraction.extract:BackgroundExtractionAPI:253 - 1. StarExtraction
+2026-03-24 18:06:56.736 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_IC 1805_60s60_Duo-Band_20251126-013524041.fits==================
+2026-03-24 18:06:57.114 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.10500862134737163 midtonesB:0.009441861886909467 highlightsB:1.0
+2026-03-24 18:06:57.115 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.10666973067826352 midtonesG:0.008690889372070059 highlightsG:1.0
+2026-03-24 18:06:57.115 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.11332014953841459 midtonesR:0.01318540802793394 highlightsR:1.0
+2026-03-24 18:06:57.118 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$6880.0598620584415, nativeHighlightsB:$65519.0,  midtonesB:$618.6213489684213
+2026-03-24 18:06:57.118 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$6988.894084309148, nativeHighlightsG:$65519.0,  midtonesG:$569.4183807686582
+2026-03-24 18:06:57.118 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$7424.622877607385, nativeHighlightsR:$65519.0,  midtonesR:$863.8947485822039
+2026-03-24 18:06:58.937 | INFO     | RASPStacker.StarExtraction.extract:BackgroundExtractionAPI:253 - 1. StarExtraction
+2026-03-24 18:07:27.264 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_IC 1805_60s60_Duo-Band_20251126-013524041.fits==================
+2026-03-24 18:07:27.530 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.10500862134737163 midtonesB:0.009441861886909467 highlightsB:1.0
+2026-03-24 18:07:27.530 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.10666973067826352 midtonesG:0.008690889372070059 highlightsG:1.0
+2026-03-24 18:07:27.530 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.11332014953841459 midtonesR:0.01318540802793394 highlightsR:1.0
+2026-03-24 18:07:27.532 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$6880.0598620584415, nativeHighlightsB:$65519.0,  midtonesB:$618.6213489684213
+2026-03-24 18:07:27.534 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$6988.894084309148, nativeHighlightsG:$65519.0,  midtonesG:$569.4183807686582
+2026-03-24 18:07:27.534 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$7424.622877607385, nativeHighlightsR:$65519.0,  midtonesR:$863.8947485822039
+2026-03-24 18:07:28.907 | INFO     | RASPStacker.StarExtraction.extract:BackgroundExtractionAPI:253 - 1. StarExtraction
+2026-03-24 18:08:09.753 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_IC 1805_60s60_Duo-Band_20251126-013524041.fits==================
+2026-03-24 18:08:10.093 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.10500862134737163 midtonesB:0.009441861886909467 highlightsB:1.0
+2026-03-24 18:08:10.094 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.10666973067826352 midtonesG:0.008690889372070059 highlightsG:1.0
+2026-03-24 18:08:10.094 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.11332014953841459 midtonesR:0.01318540802793394 highlightsR:1.0
+2026-03-24 18:08:10.096 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$6880.0598620584415, nativeHighlightsB:$65519.0,  midtonesB:$618.6213489684213
+2026-03-24 18:08:10.096 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$6988.894084309148, nativeHighlightsG:$65519.0,  midtonesG:$569.4183807686582
+2026-03-24 18:08:10.097 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$7424.622877607385, nativeHighlightsR:$65519.0,  midtonesR:$863.8947485822039
+2026-03-24 18:08:11.619 | INFO     | RASPStacker.StarExtraction.extract:BackgroundExtractionAPI:253 - 1. StarExtraction
+2026-03-24 18:13:37.847 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_IC 1805_60s60_Duo-Band_20251126-013524041.fits==================
+2026-03-24 18:13:38.081 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.10500862134737163 midtonesB:0.009441861886909467 highlightsB:1.0
+2026-03-24 18:13:38.081 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.10666973067826352 midtonesG:0.008690889372070059 highlightsG:1.0
+2026-03-24 18:13:38.081 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.11332014953841459 midtonesR:0.01318540802793394 highlightsR:1.0
+2026-03-24 18:13:38.081 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$6880.0598620584415, nativeHighlightsB:$65519.0,  midtonesB:$618.6213489684213
+2026-03-24 18:13:38.081 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$6988.894084309148, nativeHighlightsG:$65519.0,  midtonesG:$569.4183807686582
+2026-03-24 18:13:38.081 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$7424.622877607385, nativeHighlightsR:$65519.0,  midtonesR:$863.8947485822039
+2026-03-24 18:13:39.548 | INFO     | RASPStacker.StarExtraction.extract:BackgroundExtractionAPI:253 - 1. StarExtraction
+2026-03-24 18:16:13.561 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_IC 1805_60s60_Duo-Band_20251126-013524041.fits==================
+2026-03-24 18:16:13.957 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.10500862134737163 midtonesB:0.009441861886909467 highlightsB:1.0
+2026-03-24 18:16:13.957 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.10666973067826352 midtonesG:0.008690889372070059 highlightsG:1.0
+2026-03-24 18:16:13.959 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.11332014953841459 midtonesR:0.01318540802793394 highlightsR:1.0
+2026-03-24 18:16:13.962 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$6880.0598620584415, nativeHighlightsB:$65519.0,  midtonesB:$618.6213489684213
+2026-03-24 18:16:13.962 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$6988.894084309148, nativeHighlightsG:$65519.0,  midtonesG:$569.4183807686582
+2026-03-24 18:16:13.964 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$7424.622877607385, nativeHighlightsR:$65519.0,  midtonesR:$863.8947485822039
+2026-03-24 18:16:15.995 | INFO     | RASPStacker.StarExtraction.extract:BackgroundExtractionAPI:253 - 1. StarExtraction
+2026-03-24 18:17:08.466 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_M 31_30s60_Astro_20251125-212604245.fits==================
+2026-03-24 18:17:08.755 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.2450256870374609 midtonesB:0.02024658703901488 highlightsB:1.0
+2026-03-24 18:17:08.755 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.24575652704661632 midtonesG:0.01969156493577207 highlightsG:1.0
+2026-03-24 18:17:08.755 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.25748289005874725 midtonesR:0.022278112181193778 highlightsR:1.0
+2026-03-24 18:17:08.809 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$16053.8379890074, nativeHighlightsB:$65519.0,  midtonesB:$1326.536136209216
+2026-03-24 18:17:08.814 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$16101.721895567254, nativeHighlightsG:$65519.0,  midtonesG:$1290.1716430268502
+2026-03-24 18:17:08.814 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$16870.02147375906, nativeHighlightsR:$65519.0,  midtonesR:$1459.6396319996352
+2026-03-24 18:17:10.350 | INFO     | RASPStacker.StarExtraction.extract:BackgroundExtractionAPI:253 - 1. StarExtraction
+2026-03-24 18:17:53.546 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_M 45_30s60_Astro_20251124-203802912.fits==================
+2026-03-24 18:17:53.863 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.3098227878233005 midtonesB:0.017467306741585132 highlightsB:1.0
+2026-03-24 18:17:53.863 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.2840923598077363 midtonesG:0.016166733295274818 highlightsG:1.0
+2026-03-24 18:17:53.864 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.2824759655146105 midtonesR:0.016538558496493595 highlightsR:1.0
+2026-03-24 18:17:53.866 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$20299.279235394828, nativeHighlightsB:$65519.0,  midtonesB:$1144.4404704019162
+2026-03-24 18:17:53.866 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$18613.447322243075, nativeHighlightsG:$65519.0,  midtonesG:$1059.2281987731108
+2026-03-24 18:17:53.866 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$18507.542784551766, nativeHighlightsR:$65519.0,  midtonesR:$1083.589814131764
+2026-03-24 18:17:55.442 | INFO     | RASPStacker.StarExtraction.extract:BackgroundExtractionAPI:253 - 1. StarExtraction
+2026-03-24 18:19:40.424 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_IC 1805_60s60_Duo-Band_20251126-013524041.fits==================
+2026-03-24 18:19:40.676 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.10500862134737163 midtonesB:0.009441861886909467 highlightsB:1.0
+2026-03-24 18:19:40.676 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.10666973067826352 midtonesG:0.008690889372070059 highlightsG:1.0
+2026-03-24 18:19:40.676 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.11332014953841459 midtonesR:0.01318540802793394 highlightsR:1.0
+2026-03-24 18:19:40.678 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$6880.0598620584415, nativeHighlightsB:$65519.0,  midtonesB:$618.6213489684213
+2026-03-24 18:19:40.678 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$6988.894084309148, nativeHighlightsG:$65519.0,  midtonesG:$569.4183807686582
+2026-03-24 18:19:40.678 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$7424.622877607385, nativeHighlightsR:$65519.0,  midtonesR:$863.8947485822039
+2026-03-24 18:19:42.066 | INFO     | RASPStacker.StarExtraction.extract:BackgroundExtractionAPI:253 - 1. StarExtraction
+2026-03-24 18:20:27.475 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_M 31_30s60_Astro_20251125-212604245.fits==================
+2026-03-24 18:20:27.711 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.2450256870374609 midtonesB:0.02024658703901488 highlightsB:1.0
+2026-03-24 18:20:27.711 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.24575652704661632 midtonesG:0.01969156493577207 highlightsG:1.0
+2026-03-24 18:20:27.711 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.25748289005874725 midtonesR:0.022278112181193778 highlightsR:1.0
+2026-03-24 18:20:27.711 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$16053.8379890074, nativeHighlightsB:$65519.0,  midtonesB:$1326.536136209216
+2026-03-24 18:20:27.718 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$16101.721895567254, nativeHighlightsG:$65519.0,  midtonesG:$1290.1716430268502
+2026-03-24 18:20:27.718 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$16870.02147375906, nativeHighlightsR:$65519.0,  midtonesR:$1459.6396319996352
+2026-03-24 18:20:28.966 | INFO     | RASPStacker.StarExtraction.extract:BackgroundExtractionAPI:253 - 1. StarExtraction
+2026-03-24 18:21:11.100 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_M 45_30s60_Astro_20251124-203802912.fits==================
+2026-03-24 18:21:11.339 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.3098227878233005 midtonesB:0.017467306741585132 highlightsB:1.0
+2026-03-24 18:21:11.339 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.2840923598077363 midtonesG:0.016166733295274818 highlightsG:1.0
+2026-03-24 18:21:11.340 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.2824759655146105 midtonesR:0.016538558496493595 highlightsR:1.0
+2026-03-24 18:21:11.342 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$20299.279235394828, nativeHighlightsB:$65519.0,  midtonesB:$1144.4404704019162
+2026-03-24 18:21:11.342 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$18613.447322243075, nativeHighlightsG:$65519.0,  midtonesG:$1059.2281987731108
+2026-03-24 18:21:11.342 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$18507.542784551766, nativeHighlightsR:$65519.0,  midtonesR:$1083.589814131764
+2026-03-24 18:21:12.932 | INFO     | RASPStacker.StarExtraction.extract:BackgroundExtractionAPI:253 - 1. StarExtraction
+2026-03-24 18:21:25.322 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_IC 1805_60s60_Duo-Band_20251126-013524041.fits==================
+2026-03-24 18:21:25.565 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.10500862134737163 midtonesB:0.009441861886909467 highlightsB:1.0
+2026-03-24 18:21:25.566 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.10666973067826352 midtonesG:0.008690889372070059 highlightsG:1.0
+2026-03-24 18:21:25.566 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.11332014953841459 midtonesR:0.01318540802793394 highlightsR:1.0
+2026-03-24 18:21:25.567 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$6880.0598620584415, nativeHighlightsB:$65519.0,  midtonesB:$618.6213489684213
+2026-03-24 18:21:25.567 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$6988.894084309148, nativeHighlightsG:$65519.0,  midtonesG:$569.4183807686582
+2026-03-24 18:21:25.567 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$7424.622877607385, nativeHighlightsR:$65519.0,  midtonesR:$863.8947485822039
+2026-03-24 18:22:03.281 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_M 31_30s60_Astro_20251125-212604245.fits==================
+2026-03-24 18:22:03.505 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.2450256870374609 midtonesB:0.02024658703901488 highlightsB:1.0
+2026-03-24 18:22:03.505 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.24575652704661632 midtonesG:0.01969156493577207 highlightsG:1.0
+2026-03-24 18:22:03.505 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.25748289005874725 midtonesR:0.022278112181193778 highlightsR:1.0
+2026-03-24 18:22:03.513 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$16053.8379890074, nativeHighlightsB:$65519.0,  midtonesB:$1326.536136209216
+2026-03-24 18:22:03.513 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$16101.721895567254, nativeHighlightsG:$65519.0,  midtonesG:$1290.1716430268502
+2026-03-24 18:22:03.513 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$16870.02147375906, nativeHighlightsR:$65519.0,  midtonesR:$1459.6396319996352
+2026-03-24 18:22:38.681 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_M 45_30s60_Astro_20251124-203802912.fits==================
+2026-03-24 18:22:38.904 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.3098227878233005 midtonesB:0.017467306741585132 highlightsB:1.0
+2026-03-24 18:22:38.904 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.2840923598077363 midtonesG:0.016166733295274818 highlightsG:1.0
+2026-03-24 18:22:38.904 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.2824759655146105 midtonesR:0.016538558496493595 highlightsR:1.0
+2026-03-24 18:22:38.906 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$20299.279235394828, nativeHighlightsB:$65519.0,  midtonesB:$1144.4404704019162
+2026-03-24 18:22:38.906 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$18613.447322243075, nativeHighlightsG:$65519.0,  midtonesG:$1059.2281987731108
+2026-03-24 18:22:38.906 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$18507.542784551766, nativeHighlightsR:$65519.0,  midtonesR:$1083.589814131764
+2026-03-24 18:23:15.579 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\M20.FTS==================
+2026-03-24 18:23:15.692 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.04397080033569848 midtonesB:0.003412818914952484 highlightsB:1.0
+2026-03-24 18:23:15.692 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.04721102311741818 midtonesG:0.005302127496958989 highlightsG:1.0
+2026-03-24 18:23:15.692 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.046053461509117266 midtonesR:0.006056515956544669 highlightsR:1.0
+2026-03-24 18:23:15.692 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$2880.922867194629, nativeHighlightsB:$65519.0,  midtonesB:$223.60448248877182
+2026-03-24 18:23:15.698 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$3093.2190236301217, nativeHighlightsG:$65519.0,  midtonesG:$347.390091473256
+2026-03-24 18:23:15.698 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$3017.376744615854, nativeHighlightsR:$65519.0,  midtonesR:$396.81686895685016
+2026-03-24 18:23:28.029 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\SeestarS30-Stacked_161_IC 1805_60.0s_LP_20251126-053001.fit==================
+2026-03-24 18:23:28.103 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.029424704356450754 midtonesB:0.0018979297054619055 highlightsB:1.0
+2026-03-24 18:23:28.103 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.02945469138628214 midtonesG:0.0017083528904956076 highlightsG:1.0
+2026-03-24 18:23:28.104 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.029137438010223546 midtonesR:0.0028450946283228814 highlightsR:1.0
+2026-03-24 18:23:28.104 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$1927.8772047302969, nativeHighlightsB:$65519.0,  midtonesB:$124.35045637215859
+2026-03-24 18:23:28.104 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$1929.8419249378196, nativeHighlightsG:$65519.0,  midtonesG:$111.92957303238171
+2026-03-24 18:23:28.105 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$1909.0558009918366, nativeHighlightsR:$65519.0,  midtonesR:$186.40775495308688
+2026-03-24 18:23:45.312 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\SeestarS30-Stacked_451_M 45_30.0s_IRCUT_20251125-004001.fit==================
+2026-03-24 18:23:45.427 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.1304385076676585 midtonesB:0.006998431354841102 highlightsB:1.0
+2026-03-24 18:23:45.427 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.13072896009765775 midtonesG:0.007186671924248852 highlightsG:1.0
+2026-03-24 18:23:45.427 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.13015283436331732 midtonesR:0.008503027992613585 highlightsR:1.0
+2026-03-24 18:23:45.432 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$8546.200583877317, nativeHighlightsB:$65519.0,  midtonesB:$458.5302239378342
+2026-03-24 18:23:45.432 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$8565.230736638438, nativeHighlightsG:$65519.0,  midtonesG:$470.86355780486053
+2026-03-24 18:23:45.432 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$8527.483554650187, nativeHighlightsR:$65519.0,  midtonesR:$557.1098910480495
+2026-03-24 18:32:06.175 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_IC 1805_60s60_Duo-Band_20251126-013524041.fits==================
+2026-03-24 18:32:06.638 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.10500862134737163 midtonesB:0.009441861886909467 highlightsB:1.0
+2026-03-24 18:32:06.638 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.10666973067826352 midtonesG:0.008690889372070059 highlightsG:1.0
+2026-03-24 18:32:06.638 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.11332014953841459 midtonesR:0.01318540802793394 highlightsR:1.0
+2026-03-24 18:32:06.642 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$6880.0598620584415, nativeHighlightsB:$65519.0,  midtonesB:$618.6213489684213
+2026-03-24 18:32:06.642 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$6988.894084309148, nativeHighlightsG:$65519.0,  midtonesG:$569.4183807686582
+2026-03-24 18:32:06.642 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$7424.622877607385, nativeHighlightsR:$65519.0,  midtonesR:$863.8947485822039
+2026-03-24 18:32:52.176 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_M 31_30s60_Astro_20251125-212604245.fits==================
+2026-03-24 18:32:52.496 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.2450256870374609 midtonesB:0.02024658703901488 highlightsB:1.0
+2026-03-24 18:32:52.497 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.24575652704661632 midtonesG:0.01969156493577207 highlightsG:1.0
+2026-03-24 18:32:52.497 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.25748289005874725 midtonesR:0.022278112181193778 highlightsR:1.0
+2026-03-24 18:32:52.514 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$16053.8379890074, nativeHighlightsB:$65519.0,  midtonesB:$1326.536136209216
+2026-03-24 18:32:52.516 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$16101.721895567254, nativeHighlightsG:$65519.0,  midtonesG:$1290.1716430268502
+2026-03-24 18:32:52.517 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$16870.02147375906, nativeHighlightsR:$65519.0,  midtonesR:$1459.6396319996352
+2026-03-24 18:34:15.062 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_IC 1805_60s60_Duo-Band_20251126-013524041.fits==================
+2026-03-24 18:34:15.395 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.10500862134737163 midtonesB:0.009441861886909467 highlightsB:1.0
+2026-03-24 18:34:15.395 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.10666973067826352 midtonesG:0.008690889372070059 highlightsG:1.0
+2026-03-24 18:34:15.395 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.11332014953841459 midtonesR:0.01318540802793394 highlightsR:1.0
+2026-03-24 18:34:15.405 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$6880.0598620584415, nativeHighlightsB:$65519.0,  midtonesB:$618.6213489684213
+2026-03-24 18:34:15.407 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$6988.894084309148, nativeHighlightsG:$65519.0,  midtonesG:$569.4183807686582
+2026-03-24 18:34:15.407 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$7424.622877607385, nativeHighlightsR:$65519.0,  midtonesR:$863.8947485822039
+2026-03-24 18:34:56.597 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_M 31_30s60_Astro_20251125-212604245.fits==================
+2026-03-24 18:34:56.838 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.2450256870374609 midtonesB:0.02024658703901488 highlightsB:1.0
+2026-03-24 18:34:56.838 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.24575652704661632 midtonesG:0.01969156493577207 highlightsG:1.0
+2026-03-24 18:34:56.838 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.25748289005874725 midtonesR:0.022278112181193778 highlightsR:1.0
+2026-03-24 18:34:56.848 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$16053.8379890074, nativeHighlightsB:$65519.0,  midtonesB:$1326.536136209216
+2026-03-24 18:34:56.848 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$16101.721895567254, nativeHighlightsG:$65519.0,  midtonesG:$1290.1716430268502
+2026-03-24 18:34:56.848 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$16870.02147375906, nativeHighlightsR:$65519.0,  midtonesR:$1459.6396319996352
+2026-03-24 18:35:34.549 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_M 45_30s60_Astro_20251124-203802912.fits==================
+2026-03-24 18:35:34.783 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.3098227878233005 midtonesB:0.017467306741585132 highlightsB:1.0
+2026-03-24 18:35:34.783 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.2840923598077363 midtonesG:0.016166733295274818 highlightsG:1.0
+2026-03-24 18:35:34.783 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.2824759655146105 midtonesR:0.016538558496493595 highlightsR:1.0
+2026-03-24 18:35:34.786 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$20299.279235394828, nativeHighlightsB:$65519.0,  midtonesB:$1144.4404704019162
+2026-03-24 18:35:34.786 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$18613.447322243075, nativeHighlightsG:$65519.0,  midtonesG:$1059.2281987731108
+2026-03-24 18:35:34.787 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$18507.542784551766, nativeHighlightsR:$65519.0,  midtonesR:$1083.589814131764
+2026-03-24 18:36:11.403 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\M20.FTS==================
+2026-03-24 18:36:11.516 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.04397080033569848 midtonesB:0.003412818914952484 highlightsB:1.0
+2026-03-24 18:36:11.516 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.04721102311741818 midtonesG:0.005302127496958989 highlightsG:1.0
+2026-03-24 18:36:11.516 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.046053461509117266 midtonesR:0.006056515956544669 highlightsR:1.0
+2026-03-24 18:36:11.518 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$2880.922867194629, nativeHighlightsB:$65519.0,  midtonesB:$223.60448248877182
+2026-03-24 18:36:11.518 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$3093.2190236301217, nativeHighlightsG:$65519.0,  midtonesG:$347.390091473256
+2026-03-24 18:36:11.518 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$3017.376744615854, nativeHighlightsR:$65519.0,  midtonesR:$396.81686895685016
+2026-03-24 18:36:26.943 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\M31111.fit==================
+2026-03-24 18:36:27.922 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.009101280231937132 midtonesB:0.0024663724168055637 highlightsB:1.0
+2026-03-24 18:36:27.922 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.00962008697642481 midtonesG:0.0024663724168055637 highlightsG:1.0
+2026-03-24 18:36:27.922 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.014216238651102464 midtonesR:0.0036019646749248886 highlightsR:1.0
+2026-03-24 18:36:27.939 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$596.306779516289, nativeHighlightsB:$65519.0,  midtonesB:$161.59425437668372
+2026-03-24 18:36:27.939 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$630.2984786083772, nativeHighlightsG:$65519.0,  midtonesG:$161.59425437668372
+2026-03-24 18:36:27.939 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$931.4337401815824, nativeHighlightsR:$65519.0,  midtonesR:$235.99712353640376
+2026-03-24 18:37:52.777 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\SeestarS30-Stacked_161_IC 1805_60.0s_LP_20251126-053001.fit==================
+2026-03-24 18:37:52.878 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.029424704356450754 midtonesB:0.0018979297054619055 highlightsB:1.0
+2026-03-24 18:37:52.878 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.02945469138628214 midtonesG:0.0017083528904956076 highlightsG:1.0
+2026-03-24 18:37:52.878 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.029137438010223546 midtonesR:0.0028450946283228814 highlightsR:1.0
+2026-03-24 18:37:52.878 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$1927.8772047302969, nativeHighlightsB:$65519.0,  midtonesB:$124.35045637215859
+2026-03-24 18:37:52.878 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$1929.8419249378196, nativeHighlightsG:$65519.0,  midtonesG:$111.92957303238171
+2026-03-24 18:37:52.878 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$1909.0558009918366, nativeHighlightsR:$65519.0,  midtonesR:$186.40775495308688
+2026-03-24 18:39:37.777 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_IC 1805_60s60_Duo-Band_20251126-013524041.fits==================
+2026-03-24 18:39:38.212 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.10500862134737163 midtonesB:0.009441861886909467 highlightsB:1.0
+2026-03-24 18:39:38.212 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.10666973067826352 midtonesG:0.008690889372070059 highlightsG:1.0
+2026-03-24 18:39:38.212 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.11332014953841459 midtonesR:0.01318540802793394 highlightsR:1.0
+2026-03-24 18:39:38.216 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$6880.0598620584415, nativeHighlightsB:$65519.0,  midtonesB:$618.6213489684213
+2026-03-24 18:39:38.217 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$6988.894084309148, nativeHighlightsG:$65519.0,  midtonesG:$569.4183807686582
+2026-03-24 18:39:38.217 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$7424.622877607385, nativeHighlightsR:$65519.0,  midtonesR:$863.8947485822039
+2026-03-24 18:41:39.350 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_IC 1805_60s60_Duo-Band_20251126-013524041.fits==================
+2026-03-24 18:41:39.690 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.10500862134737163 midtonesB:0.009441861886909467 highlightsB:1.0
+2026-03-24 18:41:39.690 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.10666973067826352 midtonesG:0.008690889372070059 highlightsG:1.0
+2026-03-24 18:41:39.690 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.11332014953841459 midtonesR:0.01318540802793394 highlightsR:1.0
+2026-03-24 18:41:39.696 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$6880.0598620584415, nativeHighlightsB:$65519.0,  midtonesB:$618.6213489684213
+2026-03-24 18:41:39.696 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$6988.894084309148, nativeHighlightsG:$65519.0,  midtonesG:$569.4183807686582
+2026-03-24 18:41:39.696 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$7424.622877607385, nativeHighlightsR:$65519.0,  midtonesR:$863.8947485822039
+2026-03-24 18:42:03.922 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_IC 1805_60s60_Duo-Band_20251126-013524041.fits==================
+2026-03-24 18:42:04.267 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.10500862134737163 midtonesB:0.009441861886909467 highlightsB:1.0
+2026-03-24 18:42:04.267 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.10666973067826352 midtonesG:0.008690889372070059 highlightsG:1.0
+2026-03-24 18:42:04.267 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.11332014953841459 midtonesR:0.01318540802793394 highlightsR:1.0
+2026-03-24 18:42:04.271 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$6880.0598620584415, nativeHighlightsB:$65519.0,  midtonesB:$618.6213489684213
+2026-03-24 18:42:04.271 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$6988.894084309148, nativeHighlightsG:$65519.0,  midtonesG:$569.4183807686582
+2026-03-24 18:42:04.271 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$7424.622877607385, nativeHighlightsR:$65519.0,  midtonesR:$863.8947485822039
+2026-03-24 18:44:24.009 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_IC 1805_60s60_Duo-Band_20251126-013524041.fits==================
+2026-03-24 18:44:24.254 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.10500862134737163 midtonesB:0.009441861886909467 highlightsB:1.0
+2026-03-24 18:44:24.254 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.10666973067826352 midtonesG:0.008690889372070059 highlightsG:1.0
+2026-03-24 18:44:24.254 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.11332014953841459 midtonesR:0.01318540802793394 highlightsR:1.0
+2026-03-24 18:44:24.256 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$6880.0598620584415, nativeHighlightsB:$65519.0,  midtonesB:$618.6213489684213
+2026-03-24 18:44:24.258 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$6988.894084309148, nativeHighlightsG:$65519.0,  midtonesG:$569.4183807686582
+2026-03-24 18:44:24.258 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$7424.622877607385, nativeHighlightsR:$65519.0,  midtonesR:$863.8947485822039
+2026-03-24 18:45:01.205 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_M 31_30s60_Astro_20251125-212604245.fits==================
+2026-03-24 18:45:01.474 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.2450256870374609 midtonesB:0.02024658703901488 highlightsB:1.0
+2026-03-24 18:45:01.474 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.24575652704661632 midtonesG:0.01969156493577207 highlightsG:1.0
+2026-03-24 18:45:01.474 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.25748289005874725 midtonesR:0.022278112181193778 highlightsR:1.0
+2026-03-24 18:45:01.477 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$16053.8379890074, nativeHighlightsB:$65519.0,  midtonesB:$1326.536136209216
+2026-03-24 18:45:01.478 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$16101.721895567254, nativeHighlightsG:$65519.0,  midtonesG:$1290.1716430268502
+2026-03-24 18:45:01.479 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$16870.02147375906, nativeHighlightsR:$65519.0,  midtonesR:$1459.6396319996352
+2026-03-24 18:46:24.300 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:29 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\M31111.fit==================
+2026-03-24 18:46:25.130 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.009101280231937132 midtonesB:0.0024663724168055637 highlightsB:1.0
+2026-03-24 18:46:25.130 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.00962008697642481 midtonesG:0.0024663724168055637 highlightsG:1.0
+2026-03-24 18:46:25.130 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.014216238651102464 midtonesR:0.0036019646749248886 highlightsR:1.0
+2026-03-24 18:46:25.135 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$596.306779516289, nativeHighlightsB:$65519.0,  midtonesB:$161.59425437668372
+2026-03-24 18:46:25.135 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$630.2984786083772, nativeHighlightsG:$65519.0,  midtonesG:$161.59425437668372
+2026-03-24 18:46:25.135 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$931.4337401815824, nativeHighlightsR:$65519.0,  midtonesR:$235.99712353640376
+2026-04-09 22:48:06.805 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:31 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_IC 1805_60s60_Duo-Band_20251126-013524041.fits==================
+2026-04-09 22:48:07.230 | INFO     | RASPStacker.ImageStretch.stretch:white_balance_gray_world:300 - gain_b: 1.0325067723838408, gain_g:1.0217278406975414, gain_r:0.94989370015211
+2026-04-09 22:48:07.330 | INFO     | RASPStacker.ImageStretch.stretch:visualize:26 - Writing to results\DWARF3-stacked-16_IC 1805_60s60_Duo-Band_20251126-013524041_debayer.jpg
+2026-04-09 22:48:07.471 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.10500862134737163 midtonesB:0.009441861886909467 highlightsB:1.0
+2026-04-09 22:48:07.473 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.10666973067826352 midtonesG:0.008690889372070059 highlightsG:1.0
+2026-04-09 22:48:07.474 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.11332014953841459 midtonesR:0.01318540802793394 highlightsR:1.0
+2026-04-09 22:48:07.476 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$6880.0598620584415, nativeHighlightsB:$65519.0,  midtonesB:$618.6213489684213
+2026-04-09 22:48:07.477 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$6988.894084309148, nativeHighlightsG:$65519.0,  midtonesG:$569.4183807686582
+2026-04-09 22:48:07.477 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$7424.622877607385, nativeHighlightsR:$65519.0,  midtonesR:$863.8947485822039
+2026-04-09 22:48:53.152 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:31 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_M 31_30s60_Astro_20251125-212604245.fits==================
+2026-04-09 22:48:53.565 | INFO     | RASPStacker.ImageStretch.stretch:white_balance_gray_world:300 - gain_b: 1.0181117212145194, gain_g:1.015815349646858, gain_r:0.9677181362664941
+2026-04-09 22:48:53.659 | INFO     | RASPStacker.ImageStretch.stretch:visualize:26 - Writing to results\DWARF3-stacked-16_M 31_30s60_Astro_20251125-212604245_debayer.jpg
+2026-04-09 22:48:53.796 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.2450256870374609 midtonesB:0.02024658703901488 highlightsB:1.0
+2026-04-09 22:48:53.797 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.24575652704661632 midtonesG:0.01969156493577207 highlightsG:1.0
+2026-04-09 22:48:53.797 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.25748289005874725 midtonesR:0.022278112181193778 highlightsR:1.0
+2026-04-09 22:48:53.800 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$16053.8379890074, nativeHighlightsB:$65519.0,  midtonesB:$1326.536136209216
+2026-04-09 22:48:53.800 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$16101.721895567254, nativeHighlightsG:$65519.0,  midtonesG:$1290.1716430268502
+2026-04-09 22:48:53.800 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$16870.02147375906, nativeHighlightsR:$65519.0,  midtonesR:$1459.6396319996352
+2026-04-09 22:49:36.919 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:31 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_M 45_30s60_Astro_20251124-203802912.fits==================
+2026-04-09 22:49:37.401 | INFO     | RASPStacker.ImageStretch.stretch:white_balance_gray_world:300 - gain_b: 0.9432903257687465, gain_g:1.028386387902183, gain_r:1.0336088456728083
+2026-04-09 22:49:37.509 | INFO     | RASPStacker.ImageStretch.stretch:visualize:26 - Writing to results\DWARF3-stacked-16_M 45_30s60_Astro_20251124-203802912_debayer.jpg
+2026-04-09 22:49:37.662 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.3098227878233005 midtonesB:0.017467306741585132 highlightsB:1.0
+2026-04-09 22:49:37.662 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.2840923598077363 midtonesG:0.016166733295274818 highlightsG:1.0
+2026-04-09 22:49:37.663 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.2824759655146105 midtonesR:0.016538558496493595 highlightsR:1.0
+2026-04-09 22:49:37.666 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$20299.279235394828, nativeHighlightsB:$65519.0,  midtonesB:$1144.4404704019162
+2026-04-09 22:49:37.666 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$18613.447322243075, nativeHighlightsG:$65519.0,  midtonesG:$1059.2281987731108
+2026-04-09 22:49:37.666 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$18507.542784551766, nativeHighlightsR:$65519.0,  midtonesR:$1083.589814131764
+2026-04-09 22:50:24.570 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:31 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\M20.FTS==================
+2026-04-09 22:50:24.870 | INFO     | RASPStacker.ImageStretch.stretch:white_balance_gray_world:300 - gain_b: 1.0639592769680224, gain_g:0.964351673368536, gain_r:0.9773751051295603
+2026-04-09 22:50:24.929 | INFO     | RASPStacker.ImageStretch.stretch:visualize:26 - Writing to results\M20_debayer.jpg
+2026-04-09 22:50:25.008 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.04397080033569848 midtonesB:0.003412818914952484 highlightsB:1.0
+2026-04-09 22:50:25.009 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.04721102311741818 midtonesG:0.005302127496958989 highlightsG:1.0
+2026-04-09 22:50:25.009 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.046053461509117266 midtonesR:0.006056515956544669 highlightsR:1.0
+2026-04-09 22:50:25.011 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$2880.922867194629, nativeHighlightsB:$65519.0,  midtonesB:$223.60448248877182
+2026-04-09 22:50:25.012 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$3093.2190236301217, nativeHighlightsG:$65519.0,  midtonesG:$347.390091473256
+2026-04-09 22:50:25.012 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$3017.376744615854, nativeHighlightsR:$65519.0,  midtonesR:$396.81686895685016
+2026-04-09 22:50:45.686 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:31 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\M31111.fit==================
+2026-04-09 22:50:47.148 | INFO     | RASPStacker.ImageStretch.stretch:white_balance_gray_world:300 - gain_b: 1.2033710449947246, gain_g:1.161166992241813, gain_r:0.7646431114844805
+2026-04-09 22:50:47.454 | INFO     | RASPStacker.ImageStretch.stretch:visualize:26 - Writing to results\M31111_debayer.jpg
+2026-04-09 22:50:47.885 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.009101280231937132 midtonesB:0.0024663724168055637 highlightsB:1.0
+2026-04-09 22:50:47.886 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.00962008697642481 midtonesG:0.0024663724168055637 highlightsG:1.0
+2026-04-09 22:50:47.886 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.014216238651102464 midtonesR:0.0036019646749248886 highlightsR:1.0
+2026-04-09 22:50:47.893 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$596.306779516289, nativeHighlightsB:$65519.0,  midtonesB:$161.59425437668372
+2026-04-09 22:50:47.893 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$630.2984786083772, nativeHighlightsG:$65519.0,  midtonesG:$161.59425437668372
+2026-04-09 22:50:47.894 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$931.4337401815824, nativeHighlightsR:$65519.0,  midtonesR:$235.99712353640376
+2026-04-09 22:52:23.762 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:31 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\SeestarS30-Stacked_161_IC 1805_60.0s_LP_20251126-053001.fit==================
+2026-04-09 22:52:23.901 | INFO     | RASPStacker.ImageStretch.stretch:white_balance_gray_world:300 - gain_b: 0.9998747383356498, gain_g:1.0011123797404602, gain_r:0.9990148139578013
+2026-04-09 22:52:23.939 | INFO     | RASPStacker.ImageStretch.stretch:visualize:26 - Writing to results\SeestarS30-Stacked_161_IC 1805_60.0s_LP_20251126-053001_debayer.jpg
+2026-04-09 22:52:23.985 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.029424704356450754 midtonesB:0.0018979297054619055 highlightsB:1.0
+2026-04-09 22:52:23.985 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.02945469138628214 midtonesG:0.0017083528904956076 highlightsG:1.0
+2026-04-09 22:52:23.985 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.029137438010223546 midtonesR:0.0028450946283228814 highlightsR:1.0
+2026-04-09 22:52:23.986 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$1927.8772047302969, nativeHighlightsB:$65519.0,  midtonesB:$124.35045637215859
+2026-04-09 22:52:23.987 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$1929.8419249378196, nativeHighlightsG:$65519.0,  midtonesG:$111.92957303238171
+2026-04-09 22:52:23.987 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$1909.0558009918366, nativeHighlightsR:$65519.0,  midtonesR:$186.40775495308688
+2026-04-09 22:52:49.313 | INFO     | RASPStacker.ImageStretch.stretch:ImageDebayerAndStretch:31 - ==================C:\Workman02\python\OtherProject\pic\ABESamples\SeestarS30-Stacked_451_M 45_30.0s_IRCUT_20251125-004001.fit==================
+2026-04-09 22:52:49.395 | INFO     | RASPStacker.ImageStretch.stretch:white_balance_gray_world:300 - gain_b: 1.0021918213677579, gain_g:0.9989539057327459, gain_r:0.998861256871305
+2026-04-09 22:52:49.426 | INFO     | RASPStacker.ImageStretch.stretch:visualize:26 - Writing to results\SeestarS30-Stacked_451_M 45_30.0s_IRCUT_20251125-004001_debayer.jpg
+2026-04-09 22:52:49.458 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:660 - shadowsB:0.1304385076676585 midtonesB:0.006998431354841102 highlightsB:1.0
+2026-04-09 22:52:49.458 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:661 - shadowsG:0.13072896009765775 midtonesG:0.007186671924248852 highlightsG:1.0
+2026-04-09 22:52:49.460 | DEBUG    | utils:MannualComputeAndStretch_ThreeChannels:662 - shadowsR:0.13015283436331732 midtonesR:0.008503027992613585 highlightsR:1.0
+2026-04-09 22:52:49.460 | DEBUG    | utils:stretchThreeChannels_threading:413 - nativeShadowsB :$8546.200583877317, nativeHighlightsB:$65519.0,  midtonesB:$458.5302239378342
+2026-04-09 22:52:49.461 | DEBUG    | utils:stretchThreeChannels_threading:414 - nativeShadowsG :$8565.230736638438, nativeHighlightsG:$65519.0,  midtonesG:$470.86355780486053
+2026-04-09 22:52:49.461 | DEBUG    | utils:stretchThreeChannels_threading:415 - nativeShadowsR :$8527.483554650187, nativeHighlightsR:$65519.0,  midtonesR:$557.1098910480495

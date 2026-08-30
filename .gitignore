@@ -1,0 +1,4 @@
+# Model weight files
+*.pth
+*.pkl
+*.h5
