@@ -1,0 +1,6 @@
+outputs/*
+!outputs/.gitkeep
+*.download
+__pycache__/
+.pytest_cache/
+

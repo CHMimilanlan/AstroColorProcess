@@ -1,0 +1,66 @@
+{
+  "pipeline": "FITS -> RASPAstroStacker/ImageStretch MTF -> automatic PSF deconvolution",
+  "input": "D:\\Workman\\MyProject\\ImageStack\\AstroColorProcess\\DWARF3-stacked-16_M 45_30s60_Astro_20251124-203802912.fits",
+  "reference_stretch": {
+    "module": "D:\\Workman\\MyProject\\ImageStack\\RASPAstroStacker\\ImageStretch",
+    "shadow_co": -2.0,
+    "color_calib": false,
+    "native_output_dtype": "uint8",
+    "elapsed_seconds": 0.41463720006868243
+  },
+  "quality_control": {
+    "dark_region_detail_sigma_before": 0.027975662013888358,
+    "dark_region_detail_sigma_after": 0.02564320619702339,
+    "dark_region_detail_change_percent": -8.337446369301416,
+    "mean_absolute_change": 0.0048523880541324615
+  },
+  "deconvolution": {
+    "algorithm": "RGB damped Richardson-Lucy to finite target PSF",
+    "psf_origin": "empirical stars",
+    "image_shape": [
+      2180,
+      3856,
+      3
+    ],
+    "valid_stars": 286,
+    "estimated_noise_sigma": 0.024514612796902657,
+    "solver_noise_sigma": "per-channel automatic",
+    "source_fwhm_px": 5.706030160988589,
+    "sampled_star_median_fwhm_px": 6.375986296128889,
+    "target_fwhm_px": 2.8,
+    "before": {
+      "median_fwhm": 7.4127077980715725,
+      "median_moment_width": 6.404160252540861,
+      "median_eccentricity": 0.4033691386776742
+    },
+    "after": {
+      "median_fwhm": 7.125334775566735,
+      "median_moment_width": 5.738634329810531,
+      "median_eccentricity": 0.4291081894451553
+    },
+    "fwhm_change_percent": -3.8767617763052598,
+    "elapsed_seconds": 20.882603799924254,
+    "config": {
+      "solver": "quality",
+      "iterations": 20,
+      "target_ratio": 0.4,
+      "target_fwhm_px": 2.8,
+      "stellar_strength": 0.55,
+      "nonstellar_strength": 0.2,
+      "patch_size": 25,
+      "max_stars": 300,
+      "detection_sigma": 5.0,
+      "saturation": 0.985,
+      "max_eccentricity": 0.82,
+      "damping": 0.5,
+      "correction_limit": 1.8,
+      "wiener_regularization": 0.001,
+      "noise_sigma": null
+    },
+    "notes": [
+      "Effect-first quality mode solves RGB channels independently; balanced/fast reduce cost.",
+      "Global PSF demo; spatially varying aberrations require tiled local PSFs or a learned model.",
+      "Use linear 32-bit data for scientific processing; stretched samples are visual demos only."
+    ]
+  }
+}

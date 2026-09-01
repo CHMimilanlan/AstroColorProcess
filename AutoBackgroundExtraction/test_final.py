@@ -19,11 +19,11 @@ import os
 import sys
 import cv2
 current_dir = os.path.dirname(os.path.abspath(__file__))
-project_root = os.path.dirname(current_dir)          # .../RASPAstroStacker
-parent_of_project = os.path.dirname(project_root)    # .../ImageStack
-parent_of_project = os.path.dirname(parent_of_project)    # .../ImageStack
+astro_color_process_dir = os.path.dirname(current_dir)       # .../AstroColorProcess
+image_stack_root = os.path.dirname(astro_color_process_dir)  # .../ImageStack
 
-sys.path.insert(0, parent_of_project)
+if image_stack_root not in sys.path:
+    sys.path.insert(0, image_stack_root)
 
 from astropy.io import fits
 from abe_algorithm_v2 import automatic_background_extraction

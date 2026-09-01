@@ -1,0 +1,120 @@
+{
+  "reference": "D:\\Workman\\MyProject\\ImageStack\\AstroColorProcess\\StarDeconvolution\\samples\\m45_dss2_cds.jpg",
+  "synthetic_degradation": "elliptical Gaussian FWHM=4.2 px, axis_ratio=0.62, angle=28 deg, Gaussian noise sigma=0.0018",
+  "degraded_psnr_db": 33.98047487480638,
+  "degraded_ssim": 0.905371367931366,
+  "automatic_psf": {
+    "psnr_db": 36.82776267299473,
+    "psnr_gain_db": 2.847287798188347,
+    "ssim": 0.936669111251831,
+    "ssim_gain": 0.03129774332046509,
+    "measured_wall_seconds": 5.461009100079536,
+    "processing_report": {
+      "algorithm": "RGB damped Richardson-Lucy to finite target PSF",
+      "psf_origin": "empirical stars",
+      "image_shape": [
+        1000,
+        1000,
+        3
+      ],
+      "valid_stars": 162,
+      "estimated_noise_sigma": 0.010272331863641739,
+      "solver_noise_sigma": "per-channel automatic",
+      "source_fwhm_px": 4.090468796635821,
+      "sampled_star_median_fwhm_px": 6.767971563217053,
+      "target_fwhm_px": 1.25,
+      "before": {
+        "median_fwhm": 4.356493920475112,
+        "median_moment_width": 7.147109385403952,
+        "median_eccentricity": 0.7107216928147293
+      },
+      "after": {
+        "median_fwhm": 3.1852925475368616,
+        "median_moment_width": 7.570904620736098,
+        "median_eccentricity": 0.7053499922938375
+      },
+      "fwhm_change_percent": -26.884035518418003,
+      "elapsed_seconds": 5.453199300216511,
+      "config": {
+        "solver": "quality",
+        "iterations": 50,
+        "target_ratio": 0.4,
+        "target_fwhm_px": 1.25,
+        "stellar_strength": 0.7,
+        "nonstellar_strength": 0.7,
+        "patch_size": 25,
+        "max_stars": 250,
+        "detection_sigma": 4.5,
+        "saturation": 0.985,
+        "max_eccentricity": 0.82,
+        "damping": 0.0,
+        "correction_limit": 3.0,
+        "wiener_regularization": 0.001,
+        "noise_sigma": null
+      },
+      "notes": [
+        "Effect-first quality mode solves RGB channels independently; balanced/fast reduce cost.",
+        "Global PSF demo; spatially varying aberrations require tiled local PSFs or a learned model.",
+        "Use linear 32-bit data for scientific processing; stretched samples are visual demos only."
+      ]
+    }
+  },
+  "known_psf_solver_ceiling": {
+    "psnr_db": 38.085327791062525,
+    "psnr_gain_db": 4.104852916256142,
+    "ssim": 0.9447867274284363,
+    "ssim_gain": 0.03941535949707031,
+    "measured_wall_seconds": 9.15255010011606,
+    "processing_report": {
+      "algorithm": "RGB damped Richardson-Lucy to finite target PSF",
+      "psf_origin": "supplied/calibrated",
+      "image_shape": [
+        1000,
+        1000,
+        3
+      ],
+      "valid_stars": 162,
+      "estimated_noise_sigma": 0.010272331863641739,
+      "solver_noise_sigma": 0.0018,
+      "source_fwhm_px": 3.3070455666586853,
+      "sampled_star_median_fwhm_px": 6.767971563217053,
+      "target_fwhm_px": 0.0,
+      "before": {
+        "median_fwhm": 4.356493920475112,
+        "median_moment_width": 7.147109385403952,
+        "median_eccentricity": 0.7107216928147293
+      },
+      "after": {
+        "median_fwhm": 2.897477541721573,
+        "median_moment_width": 7.81452405785166,
+        "median_eccentricity": 0.6972980545160795
+      },
+      "fwhm_change_percent": -33.49060977444039,
+      "elapsed_seconds": 9.143019099952653,
+      "config": {
+        "solver": "quality",
+        "iterations": 80,
+        "target_ratio": 0.4,
+        "target_fwhm_px": 0.0,
+        "stellar_strength": 1.0,
+        "nonstellar_strength": 1.0,
+        "patch_size": 25,
+        "max_stars": 250,
+        "detection_sigma": 4.5,
+        "saturation": 0.985,
+        "max_eccentricity": 0.82,
+        "damping": 0.5,
+        "correction_limit": 3.0,
+        "wiener_regularization": 0.001,
+        "noise_sigma": 0.0018
+      },
+      "notes": [
+        "Effect-first quality mode solves RGB channels independently; balanced/fast reduce cost.",
+        "Global PSF demo; spatially varying aberrations require tiled local PSFs or a learned model.",
+        "Use linear 32-bit data for scientific processing; stretched samples are visual demos only."
+      ]
+    },
+    "note": "Uses the exact synthetic degradation kernel; this is a transparent solver validation, not an auto-PSF claim."
+  },
+  "peak_traced_allocation_mb": 118.82998943328857
+}

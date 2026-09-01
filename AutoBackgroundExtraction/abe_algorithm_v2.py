@@ -3,6 +3,11 @@ from scipy.ndimage import median_filter, gaussian_filter
 from scipy.interpolate import Rbf, griddata
 import time
 
+try:
+    import cv2
+except ImportError:  # OpenCV is an optional acceleration dependency.
+    cv2 = None
+
 from structure_detection import detect_structures, StructureDetectionConfig
 
 
@@ -72,14 +77,33 @@ def _ensure_channel_last(image):
 # 采样点评分与采样
 # ============================================================
 
+def _median_filter_2d(image, size):
+    """Fast float32 median filter with SciPy-compatible reflect boundaries."""
+    if cv2 is not None and size in (3, 5):
+        radius = size // 2
+        padded = np.pad(image, radius, mode="symmetric")
+        try:
+            return cv2.medianBlur(padded, size)[
+                radius:-radius, radius:-radius
+            ]
+        except cv2.error:
+            # Some older OpenCV builds have narrower dtype support.
+            pass
+    return median_filter(image, size=size)
+
+
 def _build_sampling_metrics(image, median_filter_size=5):
     """构建背景采样判别用指标图。"""
     image = np.asarray(image, dtype=np.float32)
-    smooth = median_filter(image, size=median_filter_size)
+
+    # OpenCV's float32 median implementation is substantially faster than
+    # scipy.ndimage on large images. Explicit symmetric padding reproduces
+    # SciPy's default reflect boundary exactly; keep SciPy as a fallback.
+    smooth = _median_filter_2d(image, median_filter_size)
     abs_residual = np.abs(image - smooth)
 
     # 局部残差的再平滑，可减少单个坏点/亮星边缘对 patch 判定的破坏
-    local_residual = median_filter(abs_residual, size=3)
+    local_residual = _median_filter_2d(abs_residual, 3)
 
     residual_med, residual_sigma = _robust_mad(local_residual)
     return {
@@ -111,22 +135,42 @@ def _sample_background_from_grid(
     half_patch = patch_size // 2
     use_structure = structure_mask is not None
 
-    samples = []
-    for y in y_coords:
-        for x in x_coords:
+    x_coords = np.asarray(x_coords, dtype=np.intp)
+    y_coords = np.asarray(y_coords, dtype=np.intp)
+    if x_coords.size == 0 or y_coords.size == 0:
+        return []
+
+    grid_x, grid_y = np.meshgrid(x_coords, y_coords)
+    flat_x = grid_x.ravel()
+    flat_y = grid_y.ravel()
+    y0 = flat_y - half_patch
+    x0 = flat_x - half_patch
+    y1 = y0 + patch_size
+    x1 = x0 + patch_size
+
+    # Normal ABE grids have a margin of half_patch, so all patches are the
+    # same size.  Batched percentile/median operations remove thousands of
+    # Python/NumPy dispatches while preserving the original statistics.
+    full_patches = (
+        np.all(y0 >= 0)
+        and np.all(x0 >= 0)
+        and np.all(y1 <= h)
+        and np.all(x1 <= w)
+    )
+    if not full_patches:
+        samples = []
+        for y, x in zip(flat_y, flat_x):
             y_min, y_max, x_min, x_max = _patch_bounds(x, y, half_patch, w, h)
             patch = image[y_min:y_max, x_min:x_max]
             resid_patch = local_residual[y_min:y_max, x_min:x_max]
-
             if patch.size == 0:
                 continue
-
             residual_score = float(np.percentile(resid_patch, residual_percentile))
-            if use_structure:
-                struct_ratio = float(np.mean(structure_mask[y_min:y_max, x_min:x_max]))
-            else:
-                struct_ratio = 0.0
-
+            struct_ratio = (
+                float(np.mean(structure_mask[y_min:y_max, x_min:x_max]))
+                if use_structure
+                else 0.0
+            )
             if residual_score <= residual_threshold and struct_ratio <= max_structure_ratio:
                 samples.append(
                     {
@@ -137,8 +181,66 @@ def _sample_background_from_grid(
                         "struct_ratio": struct_ratio,
                     }
                 )
+        return samples
 
-    return samples
+    residual_windows = np.lib.stride_tricks.sliding_window_view(
+        local_residual, (patch_size, patch_size)
+    )
+    residual_patches = residual_windows[y0, x0]
+    residual_scores = np.percentile(
+        residual_patches, residual_percentile, axis=(-2, -1)
+    )
+
+    if use_structure:
+        # Integral-image rectangle sums avoid materializing a second patch
+        # tensor merely to calculate structure-mask means.
+        integral = np.pad(
+            np.asarray(structure_mask, dtype=np.int8)
+            .cumsum(axis=0, dtype=np.int64)
+            .cumsum(axis=1),
+            ((1, 0), (1, 0)),
+        )
+        structure_counts = (
+            integral[y1, x1]
+            - integral[y0, x1]
+            - integral[y1, x0]
+            + integral[y0, x0]
+        )
+        structure_ratios = structure_counts / float(patch_size * patch_size)
+    else:
+        structure_ratios = np.zeros(flat_x.size, dtype=np.float64)
+
+    selected = (residual_scores <= residual_threshold) & (
+        structure_ratios <= max_structure_ratio
+    )
+    if not np.any(selected):
+        return []
+
+    selected_x = flat_x[selected]
+    selected_y = flat_y[selected]
+    image_windows = np.lib.stride_tricks.sliding_window_view(
+        image, (patch_size, patch_size)
+    )
+    sample_values = np.median(
+        image_windows[y0[selected], x0[selected]], axis=(-2, -1)
+    )
+
+    return [
+        {
+            "x": float(x),
+            "y": float(y),
+            "z": float(z),
+            "residual_score": float(score),
+            "struct_ratio": float(ratio),
+        }
+        for x, y, z, score, ratio in zip(
+            selected_x,
+            selected_y,
+            sample_values,
+            residual_scores[selected],
+            structure_ratios[selected],
+        )
+    ]
 
 
 def _merge_samples_by_distance(samples, min_distance):
@@ -149,7 +251,6 @@ def _merge_samples_by_distance(samples, min_distance):
     而不是简单保留先出现的点。
     """
     if not samples:
-        _profile_log(profile_time, "automatic_background_extraction_total", total_t0)
         return []
     if min_distance is None or min_distance <= 0:
         return list(samples)
@@ -348,10 +449,30 @@ def evaluate_polynomial_2d(X, Y, coeffs, degree=None, terms=None, image_shape=No
     return Z
 
 
+def _evaluate_polynomial_grid(image_shape, coeffs, terms):
+    """Evaluate a polynomial on a regular image grid without two meshgrids."""
+    h, w = image_shape
+    coeffs = np.asarray(coeffs, dtype=np.float32)
+    x_n, y_n = _normalize_xy(
+        np.arange(w, dtype=np.float32),
+        np.arange(h, dtype=np.float32),
+        w,
+        h,
+    )
+    max_x_degree = max(ix for ix, _ in terms)
+    max_y_degree = max(iy for _, iy in terms)
+    x_powers = [x_n ** exponent for exponent in range(max_x_degree + 1)]
+    y_powers = [y_n ** exponent for exponent in range(max_y_degree + 1)]
+
+    background = np.zeros((h, w), dtype=np.float32)
+    for (ix, iy), coefficient in zip(terms, coeffs):
+        background += (coefficient * x_powers[ix][None, :]) * y_powers[iy][:, None]
+    return background
+
+
 def _fit_background_surface(samples, image_shape, degree=3, fitting_method="polynomial"):
     """对采样点进行背景曲面拟合。"""
     h, w = image_shape
-    x_grid, y_grid = np.meshgrid(np.arange(w, dtype=np.float32), np.arange(h, dtype=np.float32))
 
     sx = np.asarray([s["x"] for s in samples], dtype=np.float32)
     sy = np.asarray([s["y"] for s in samples], dtype=np.float32)
@@ -362,9 +483,15 @@ def _fit_background_surface(samples, image_shape, degree=3, fitting_method="poly
 
     method = str(fitting_method).lower()
     if method == "rbf":
+        x_grid, y_grid = np.meshgrid(
+            np.arange(w, dtype=np.float32), np.arange(h, dtype=np.float32)
+        )
         rbf = Rbf(sx, sy, sz, function="thin_plate", smooth=0.1)
         background = rbf(x_grid, y_grid)
     elif method == "spline":
+        x_grid, y_grid = np.meshgrid(
+            np.arange(w, dtype=np.float32), np.arange(h, dtype=np.float32)
+        )
         points = np.column_stack([sx, sy])
         background = griddata(points, sz, (x_grid, y_grid), method="cubic", fill_value=np.nan)
         if np.isnan(background).any():
@@ -374,12 +501,10 @@ def _fit_background_surface(samples, image_shape, degree=3, fitting_method="poly
             background = np.where(np.isnan(background), nearest_bg, background)
     else:
         poly = fit_polynomial_2d(sx, sy, sz, degree=degree, image_shape=image_shape)
-        background = evaluate_polynomial_2d(
-            x_grid,
-            y_grid,
+        background = _evaluate_polynomial_grid(
+            image_shape=image_shape,
             coeffs=poly["coeffs"],
             terms=poly["terms"],
-            image_shape=image_shape,
         )
 
     return np.asarray(background, dtype=np.float32)
@@ -438,6 +563,32 @@ def _prepare_sampling_luminance(image_2d_or_3d):
     raise ValueError("image must be 2D or 3D")
 
 
+def _sample_patch_medians(image_channel, samples_x, samples_y, patch_size):
+    """Return patch medians in one batched operation for regular ABE samples."""
+    h, w = image_channel.shape
+    half_patch = patch_size // 2
+    x = np.asarray(samples_x, dtype=np.intp)
+    y = np.asarray(samples_y, dtype=np.intp)
+    y0 = y - half_patch
+    x0 = x - half_patch
+    y1 = y0 + patch_size
+    x1 = x0 + patch_size
+
+    if (
+        x.size > 0
+        and np.all(y0 >= 0)
+        and np.all(x0 >= 0)
+        and np.all(y1 <= h)
+        and np.all(x1 <= w)
+    ):
+        windows = np.lib.stride_tricks.sliding_window_view(
+            image_channel, (patch_size, patch_size)
+        )
+        return np.median(windows[y0, x0], axis=(-2, -1)).astype(np.float32)
+
+    return None
+
+
 def _extract_background_for_single_channel(
     image_channel,
     samples_xy,
@@ -451,15 +602,26 @@ def _extract_background_for_single_channel(
     patch_size = int(np.clip(round(min(h, w) / 64), 7, 31))
     if patch_size % 2 == 0:
         patch_size += 1
-    half_patch = patch_size // 2
-
-    samples = []
-    for x, y in zip(samples_x, samples_y):
-        y_min, y_max, x_min, x_max = _patch_bounds(x, y, half_patch, w, h)
-        patch = image_channel[y_min:y_max, x_min:x_max]
-        if patch.size == 0:
-            continue
-        samples.append({"x": float(x), "y": float(y), "z": float(np.median(patch))})
+    sample_values = _sample_patch_medians(
+        image_channel, samples_x, samples_y, patch_size
+    )
+    if sample_values is not None:
+        samples = [
+            {"x": float(x), "y": float(y), "z": float(z)}
+            for x, y, z in zip(samples_x, samples_y, sample_values)
+        ]
+    else:
+        half_patch = patch_size // 2
+        samples = []
+        for x, y in zip(samples_x, samples_y):
+            y_min, y_max, x_min, x_max = _patch_bounds(
+                x, y, half_patch, w, h
+            )
+            patch = image_channel[y_min:y_max, x_min:x_max]
+            if patch.size:
+                samples.append(
+                    {"x": float(x), "y": float(y), "z": float(np.median(patch))}
+                )
 
     background = _fit_background_surface(samples, (h, w), degree=degree, fitting_method=fitting_method)
     if smooth_background_sigma and smooth_background_sigma > 0:

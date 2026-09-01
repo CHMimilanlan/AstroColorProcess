@@ -1,12 +1,18 @@
 import os
 import sys
 
-current_dir = os.path.dirname(os.path.abspath(__file__))
-project_root = os.path.dirname(current_dir)          # .../RASPAstroStacker
-parent_of_project = os.path.dirname(project_root)    # .../ImageStack
-parent_of_project = os.path.dirname(parent_of_project)    # .../ImageStack
+# Avoid UnicodeEncodeError for progress messages containing emoji on GBK
+# Windows consoles. Supported Chinese text keeps using the active encoding.
+for stream in (sys.stdout, sys.stderr):
+    if hasattr(stream, "reconfigure"):
+        stream.reconfigure(errors="replace")
 
-sys.path.insert(0, parent_of_project)
+current_dir = os.path.dirname(os.path.abspath(__file__))
+astro_color_process_dir = os.path.dirname(current_dir)       # .../AstroColorProcess
+image_stack_root = os.path.dirname(astro_color_process_dir)  # .../ImageStack
+
+if image_stack_root not in sys.path:
+    sys.path.insert(0, image_stack_root)
 from os.path import join as pjoin
 
 from RASPAstroStacker.ImageStretch.stretch import ImageDebayerAndStretch, SCNR_Average_Neutral
@@ -226,7 +232,8 @@ def ABEProcess(mode, filepath, do_debug, debug_tmp):
         merged_mult_img = stretch_img * merged_thres_for_mult
         visualize(merged_mult_img, "thres_merged_image", tmpdir=debug_tmp)
         visualize(normed_stretch_img, "norm_stretch", tmpdir=pjoin(debug_tmp, "image"))
-        visualize(structure_mask*255, "structure_mask", tmpdir=pjoin(debug_tmp, "image"))
+        structure_mask_image = structure_mask.astype(np.uint8) * np.uint8(255)
+        visualize(structure_mask_image, "structure_mask", tmpdir=pjoin(debug_tmp, "image"))
         for i, thres_img in enumerate(multiscale_results_thres):
             tmpimg = ((255 - thres_img) / 255).astype(np.uint8)
             if stretch_img.ndim == 3 and tmpimg.ndim == 2:
@@ -288,20 +295,23 @@ def main(filepath, debug_tmp_base):
     
 if __name__ == "__main__":
     # dir
-    inputpath = r"C:\Workman02\python\OtherProject\pic\ABESamples"
+    # inputpath = r"C:\Workman02\python\OtherProject\pic\ABESamples"
 
     # samples
     # inputpath = r"C:\Workman02\python\OtherProject\pic\ABESamples\M31111.fit"
     # inputpath = r"C:\Workman02\python\OtherProject\pic\ABESamples\SeestarS30-Stacked_451_M 45_30.0s_IRCUT_20251125-004001.fit"
-    # filepath = r"C:\Workman02\python\OtherProject\ImageStack\RASPAstroStacker\ColorProcess\AutoBackgroundExtraction\M8.FTS"
+    inputpath = r"./M8.FTS"
+
     # filepath = r'C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_IC 1805_60s60_Duo-Band_20251126-013524041.fits'  # 输入 FITS 图像路径
     # filepath = r'C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_M 31_30s60_Astro_20251125-212604245.fits'  # 输入 FITS 图像路径
     # filepath = r'C:\Workman02\python\OtherProject\pic\ABESamples\DWARF3-stacked-16_M 45_30s60_Astro_20251124-203802912.fits'  # 输入 FITS 图像路径
     # filepath = r'C:\Workman02\python\OtherProject\pic\ABESamples\M20.FTS'  # 输入 FITS 图像路径
     # filepath = r'C:\Workman02\python\OtherProject\pic\ABESamples\SeestarS30-Stacked_161_IC 1805_60.0s_LP_20251126-053001.fit'  # 输入 FITS 图像路径
     # filepath = r'C:\Workman02\python\OtherProject\pic\ABESamples\SeestarS30-Stacked_451_M 45_30.0s_IRCUT_20251125-004001.fit'  # 输入 FITS 图像路径
+    # filepath = r"C:\Workman02\python\OtherProject\ImageStack\RASPAstroStacker\ColorProcess\AutoBackgroundExtraction\M8.FTS"
 
-    debug_tmp_base = r"C:\Workman02\python\OtherProject\ImageStack\RASPAstroStacker\ColorProcess\AutoBackgroundExtraction\debug_tmp"
+    debug_tmp_base = os.path.join(current_dir, "debug_tmp")
+
     clear_debug_tmp(debug_tmp_base)
     if os.path.isfile(inputpath):
         main(inputpath, debug_tmp_base)
