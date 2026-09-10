@@ -2,3 +2,10 @@
 *.pth
 *.pkl
 *.h5
+
+# Generated Python and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+.hf_upload/

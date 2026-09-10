@@ -113,7 +113,10 @@ class StarNet:
 
     @staticmethod
     def _load_state(module, path, device):
-        checkpoint = torch.load(path, map_location=device)
+        try:
+            checkpoint = torch.load(path, map_location=device, weights_only=True)
+        except TypeError:  # PyTorch < 2.0 compatibility
+            checkpoint = torch.load(path, map_location=device)
         state_dict = checkpoint.get("state_dict", checkpoint)
         module.load_state_dict(state_dict)
 

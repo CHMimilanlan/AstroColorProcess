@@ -8,7 +8,7 @@ def main():
 
     input_default  = "rgb_test5.tif"
     output_default = "rgb_test5_starless.tif"
-    weights_default = "../starnet_weights2/weights"
+    weights_default = str(Path(__file__).resolve().parent / "models" / "weights")
     mode_default = "RGB" 
 
     parser = argparse.ArgumentParser(description="PyTorch version of the TF2 StarNet transform demo")
@@ -27,7 +27,11 @@ def main():
     parser.add_argument("--mode", choices=("RGB", "Greyscale"), default=mode_default)
     parser.add_argument("--window-size", type=int, default=512)
     parser.add_argument("--stride", type=int, default=128)
-    parser.add_argument("--device", default="cuda", help="Torch device such as cuda, cuda:0, or cpu")
+    parser.add_argument(
+        "--device",
+        default=None,
+        help="Torch device such as cuda, cuda:0, or cpu (default: auto-detect)",
+    )
     args = parser.parse_args()
 
     starnet = StarNet(
