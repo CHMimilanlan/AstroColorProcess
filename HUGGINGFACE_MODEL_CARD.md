@@ -17,11 +17,20 @@ Source repository: <https://github.com/CHMimilanlan/AstroColorProcess>
 
 ## Included models
 
-| Model | Checkpoint | Purpose |
-| --- | --- | --- |
-| Cosmic Clarity AI 3.6 wrapper | `StarDenoise/models/deep_denoise_cnn_AI3_6.pth` | Astronomical image denoising |
-| StarNet RGB generator | `StarNetPyTorch/models/weights_G_RGB.pth` | Star removal from RGB TIFF images |
-| StarNet greyscale generator | `StarNetPyTorch/models/weights_G_Greyscale.pth` | Star removal from greyscale TIFF images |
+| Model | Parameters | Parameter count (B) | Checkpoint size | Purpose |
+| --- | ---: | ---: | ---: | --- |
+| Cosmic Clarity AI 3.6 wrapper | 2,945,283 | 0.002945B | 33.77 MiB | Astronomical image denoising |
+| StarNet RGB generator | 54,420,483 | 0.054420B | 207.67 MiB | Star removal from RGB TIFF images |
+| StarNet greyscale generator | 54,414,337 | 0.054414B | 207.64 MiB | Star removal from greyscale TIFF images |
+| **All checkpoints** | **111,780,103** | **0.111780B** | **449.08 MiB** | Stored models; RGB and greyscale variants are not normally loaded together |
+
+FP32 parameter memory is 11.24 MiB for the denoiser, 207.60 MiB for StarNet RGB, and
+207.57 MiB for StarNet greyscale. At batch 1 and 256×256 input, profiled FP32 tensor-memory
+peaks are approximately 361.67 MiB, 356.33 MiB, and 355.31 MiB respectively. These are
+compute-graph estimates and exclude the CUDA context, cuDNN workspace, and allocator cache.
+The measurements were collected in a CPU-only PyTorch environment, so they are not direct CUDA
+`max_memory_allocated` measurements. See the GitHub README for sizing methodology,
+512×512 estimates, and recommended GPU capacities.
 
 ## Quick start
 

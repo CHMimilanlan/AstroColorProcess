@@ -8,13 +8,57 @@
 
 ## AI 模块
 
-| 目录 | 功能 | 推理权重 | 大小（约） |
-| --- | --- | --- | ---: |
-| `StarDenoise` | 星图/深空图像降噪 | `deep_denoise_cnn_AI3_6.pth` | 33.8 MB |
-| `StarNetPyTorch` | RGB 或灰度天文图像去星 | `weights_G_RGB.pth`、`weights_G_Greyscale.pth` | 各 208 MB |
+| 目录 | 功能 | 推理权重 |
+| --- | --- | --- |
+| `StarDenoise` | 星图/深空图像降噪 | `deep_denoise_cnn_AI3_6.pth` |
+| `StarNetPyTorch` | RGB 或灰度天文图像去星 | `weights_G_RGB.pth`、`weights_G_Greyscale.pth` |
 
 权重没有提交到 GitHub，请从 Hugging Face 下载。仓库内的测试图和输出仅用于演示，
 实际部署时可以只保留代码、依赖和所需权重。
+
+## 模型规模与显存
+
+下面统计的是 Hugging Face 中三个可部署的 PyTorch 推理 checkpoint。`B` 表示十亿参数，
+文件大小使用二进制单位 MiB（`1 MiB = 1024² bytes`）。
+
+| 推理模型 | 参数量 | 参数量（B） | checkpoint 文件 | 仅参数 FP32 | 仅参数 FP16 | 256×256 FP32 张量峰值 |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Cosmic Clarity AI 3.6 降噪 | 2,945,283（2.945M） | 0.002945B | 33.77 MiB（35.42 MB） | 11.24 MiB | 5.62 MiB | 361.67 MiB |
+| StarNet RGB 生成器 | 54,420,483（54.420M） | 0.054420B | 207.67 MiB（217.75 MB） | 207.60 MiB | 103.80 MiB | 356.33 MiB |
+| StarNet 灰度生成器 | 54,414,337（54.414M） | 0.054414B | 207.64 MiB（217.73 MB） | 207.57 MiB | 103.79 MiB | 355.31 MiB |
+| **全部三个 checkpoint** | **111,780,103（111.780M）** | **0.111780B** | **449.08 MiB（470.90 MB）** | **426.41 MiB** | **213.20 MiB** | 不会同时执行 |
+
+普通 RGB 处理流水线只加载“降噪 + StarNet RGB”，不是同时加载 RGB 和灰度去星模型：
+
+| 组合 | 参数量 | 参数量（B） | checkpoint 合计 | FP32 参数合计 |
+| --- | ---: | ---: | ---: | ---: |
+| 降噪 + StarNet RGB | 57,365,766 | 0.057366B | 241.44 MiB | 218.83 MiB |
+| 降噪 + StarNet 灰度 | 57,359,620 | 0.057360B | 241.42 MiB | 218.81 MiB |
+
+### 显存口径
+
+- “仅参数”是由参数量乘以每个参数的字节数得到的确定下限，不包含输入、激活、CUDA
+  context、cuDNN workspace 和 PyTorch 缓存。
+- “256×256 FP32 张量峰值”是在 `torch.inference_mode()`、`batch=1` 下使用 PyTorch
+  内存时间线测得的 CPU 张量峰值，用来估算相同计算图的显存主体，不是 `nvidia-smi`
+  的 CUDA 实测值。本机有 RTX 4060 Laptop 8 GB，但当前 `study` 环境是
+  `torch 2.13.0+cpu`，无法直接调用 CUDA 峰值统计接口。
+- 降噪程序默认 `tile-size=256` 且在 CUDA 上使用混合精度。按激活减半、FP32 主权重
+  常驻估算，张量主体约 **186 MiB**；加上 CUDA context、算子 workspace 和缓存后，
+  建议至少 **2 GB 显存**。
+- StarNet 当前按 FP32 推理。`window-size=256` 的生成器张量峰值约 **356 MiB**；默认
+  `window-size=512` 按空间面积推算约 **803 MiB（RGB）/ 799 MiB（灰度）**。
+  算上 CUDA 运行时后建议至少 **3 GB 显存**，**4 GB 或以上更稳妥**。
+- 当前 `StarNet.load_model()` 还会实例化训练用判别器，虽然推理时不执行它，但会额外
+  常驻约 **1.77M 参数 / 6.77 MiB FP32**。上表的模型参数量按真正参与推理的生成器统计。
+- 1080P 或更大图像采用分块处理时，显存主要由 `tile-size` / `window-size` 和
+  `batch-size` 决定，而不是整张图的像素总数；提高 batch 时，激活显存近似线性增加。
+- 降噪与去星顺序执行时，进程应在阶段间释放前一个模型；流水线峰值取两者较大值，
+  不需要把两张峰值表简单相加。8 GB 显存可以宽裕运行这里的默认推理配置。
+
+本地 `starnet_weights2` 中还保留了格式转换和训练辅助文件：两个生成器 `.h5` 各约
+207.75 MiB、两个判别器 `.h5` 各约 6.85 MiB、两个训练历史 `.pkl` 各约 4.69 MiB。
+它们不是额外的推理模型；生成器 `.h5` 与已发布 `.pth` 表示同一组模型，部署无需下载。
 
 ## 1. 环境安装
 
